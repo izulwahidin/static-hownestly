@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://hownestly.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://hownestly.com/category/algebra-prep/</loc>
+		<lastmod>2025-11-11T11:59:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://hownestly.com/category/animal-art/</loc>
+		<lastmod>2025-11-11T11:04:35+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://hownestly.com/category/appliance-care/</loc>
 		<lastmod>2025-11-11T09:50:33+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://hownestly.com/category/art-techniques/</loc>
+		<lastmod>2025-11-11T11:04:35+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://hownestly.com/category/automotive-guides/</loc>
 		<lastmod>2025-11-11T09:35:42+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://hownestly.com/category/basic-math-skills/</loc>
+		<lastmod>2025-11-11T11:59:24+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/car-maintenance/</loc>
@@ -22,7 +38,11 @@
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/diy-solutions/</loc>
-		<lastmod>2025-11-11T09:22:46+00:00</lastmod>
+		<lastmod>2025-11-11T11:55:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://hownestly.com/category/drawing-tutorials/</loc>
+		<lastmod>2025-11-11T11:04:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/email-management/</loc>
@@ -34,7 +54,11 @@
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/home-maintenance/</loc>
-		<lastmod>2025-11-11T09:50:33+00:00</lastmod>
+		<lastmod>2025-11-11T11:55:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://hownestly.com/category/mathematics-tutorials/</loc>
+		<lastmod>2025-11-11T11:59:24+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/outlook-tutorials/</loc>
@@ -42,7 +66,11 @@
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/pest-control/</loc>
-		<lastmod>2025-11-11T09:22:46+00:00</lastmod>
+		<lastmod>2025-11-11T11:55:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://hownestly.com/category/plumbing-tips/</loc>
+		<lastmod>2025-11-11T10:51:29+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/category/productivity-tips/</loc>
