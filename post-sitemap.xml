@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://hownestly.com/</loc>
-		<lastmod>2025-11-11T11:59:24+00:00</lastmod>
+		<lastmod>2025-11-11T12:29:29+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/how-to-get-rid-of-gnats-2/</loc>
@@ -58,6 +58,27 @@
 		<lastmod>2025-11-11T11:59:24+00:00</lastmod>
 		<image:image>
 			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/multiply-fractions-with-ease-a-step-by-step-guide.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-tell-if-eggs-are-bad/</loc>
+		<lastmod>2025-11-11T12:19:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/how-to-tell-if-eggs-are-bad-the-ultimate-freshness-guide.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-long-to-boil-chicken-breast-guide/</loc>
+		<lastmod>2025-11-11T12:23:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/boiling-chicken-breast-perfect-times-tender-results.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-measure-ring-size-guide/</loc>
+		<lastmod>2025-11-11T12:29:29+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/how-to-measure-ring-size-accurately-at-home.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
