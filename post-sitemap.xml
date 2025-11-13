@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://hownestly.com/</loc>
-		<lastmod>2025-11-11T12:37:23+00:00</lastmod>
+		<lastmod>2025-11-13T12:50:23+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/how-to-multiply-fractions-guide/</loc>
@@ -79,6 +79,20 @@
 		<lastmod>2025-11-11T12:37:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/effective-ways-how-to-get-rid-of-gnats-fast-permanently.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-make-yum-yum-sauce-recipe/</loc>
+		<lastmod>2025-11-13T12:38:59+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/homemade-yum-yum-sauce-easy-delicious-recipe-guide.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/what-do-turtles-eat-diet-guide/</loc>
+		<lastmod>2025-11-13T12:50:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/what-do-turtles-eat-a-comprehensive-guide-to-turtle-diets.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
