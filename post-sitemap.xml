@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://hownestly.com/</loc>
-		<lastmod>2025-11-13T21:28:28+00:00</lastmod>
+		<lastmod>2025-11-13T23:02:58+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/how-to-multiply-fractions-guide/</loc>
@@ -100,6 +100,62 @@
 		<lastmod>2025-11-13T21:28:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/compassionate-words-what-to-say-when-someone-dies.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-right-click-mac/</loc>
+		<lastmod>2025-11-13T21:42:06+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/mastering-the-mac-right-click-a-simple-guide.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/when-does-daylight-saving-time-end-guide/</loc>
+		<lastmod>2025-11-13T21:52:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/when-does-daylight-saving-time-end-your-fall-back-guide.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/calculating-future-time-guide/</loc>
+		<lastmod>2025-11-13T22:02:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/calculating-future-time-your-essential-guide-to-increments.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-draw-stitch-step-by-step/</loc>
+		<lastmod>2025-11-13T22:13:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/master-how-to-draw-stitch-easy-step-by-step-guide-for-fans.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/who-invented-math-history-origins/</loc>
+		<lastmod>2025-11-13T22:22:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/the-origin-story-who-invented-math-its-ancient-roots.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-become-a-firefighter-guide/</loc>
+		<lastmod>2025-11-13T22:34:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/your-guide-how-to-become-a-firefighter-and-serve-your-community.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-grow-garlic-guide/</loc>
+		<lastmod>2025-11-13T22:53:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/grow-garlic-a-complete-guide-to-a-bountiful-harvest.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-often-to-rotate-tires-guide/</loc>
+		<lastmod>2025-11-13T23:02:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/tire-rotation-schedule-how-often-to-rotate-tires-for-longevity.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
