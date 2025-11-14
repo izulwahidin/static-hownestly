@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://hownestly.com/</loc>
-		<lastmod>2025-11-14T01:42:47+00:00</lastmod>
+		<lastmod>2025-11-14T02:12:46+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/how-to-multiply-fractions-guide/</loc>
@@ -247,6 +247,27 @@
 		<lastmod>2025-11-14T01:42:47+00:00</lastmod>
 		<image:image>
 			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/what-is-burrata-your-guide-to-this-creamy-italian-cheese.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-draw-lips-realistic-guide/</loc>
+		<lastmod>2025-11-14T01:53:06+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/master-the-art-how-to-draw-lips-with-realistic-detail.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-make-sunny-side-up-eggs/</loc>
+		<lastmod>2025-11-14T02:02:29+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/perfect-sunny-side-up-eggs-a-simple-guide-to-frying.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/what-does-hy-mean-in-text/</loc>
+		<lastmod>2025-11-14T02:12:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/decoding-hy-what-does-it-mean-in-texting-online.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
