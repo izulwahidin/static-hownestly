@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://hownestly.com/</loc>
-		<lastmod>2025-11-14T01:12:38+00:00</lastmod>
+		<lastmod>2025-11-14T01:42:47+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://hownestly.com/how-to-multiply-fractions-guide/</loc>
@@ -226,6 +226,27 @@
 		<lastmod>2025-11-14T01:12:38+00:00</lastmod>
 		<image:image>
 			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/daylight-saving-time-end-date-when-clocks-fall-back-in-2024.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/what-a-beautiful-name-lyrics-hillsong-worship/</loc>
+		<lastmod>2025-11-14T01:22:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/what-a-beautiful-name-lyrics-meaning-impact-of-hillsongs-anthem.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/how-to-get-hair-dye-off-skin-guide/</loc>
+		<lastmod>2025-11-14T01:33:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/how-to-get-hair-dye-off-skin-ultimate-guide-quick-fixes.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://hownestly.com/what-is-burrata-cheese-guide/</loc>
+		<lastmod>2025-11-14T01:42:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://hownestly.com/wp-content/uploads/2025/11/what-is-burrata-your-guide-to-this-creamy-italian-cheese.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
