@@ -1,4 +1,7 @@
-User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://hownestly.com/sitemap_index.xml
+<html>
+    <head>
+        <title>Redirecting</title>
+        <meta http-equiv="refresh" content="0;url=/robots_static.txt" />
+    </head>
+    <body></body>
+</html><!-- Powered by Staatic (https://staatic.com/) -->
