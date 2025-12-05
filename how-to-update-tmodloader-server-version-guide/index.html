@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- This site is optimized with the Yoast SEO Premium plugin v26.2 (Yoast SEO v26.5) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>How to Update tModLoader Server Version &amp; Prevent Mod Conflicts - Hownestly</title>
+<style>.flying-press-lazy-bg{background-image:none!important;}</style>
+
+
+	<meta name="description" content="A direct, no-fluff guide on how to update your tModLoader server version for hosts (manual and panel) and the critical steps to avoid mod version hell. Get your server running smoothly." />
+	<link rel="canonical" href="https://hownestly.com/how-to-update-tmodloader-server-version-guide/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Stop the Lag: How to Update tModLoader Server Version Without Breaking Your World" />
+	<meta property="og:description" content="A direct, no-fluff guide on how to update your tModLoader server version for hosts (manual and panel) and the critical steps to avoid mod version hell. Get your server running smoothly." />
+	<meta property="og:url" content="https://hownestly.com/how-to-update-tmodloader-server-version-guide/" />
+	<meta property="og:site_name" content="Hownestly" />
+	<meta property="article:published_time" content="2025-11-29T11:01:19+00:00" />
+	<meta property="og:image" content="https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Hownestly" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#article","isPartOf":{"@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/"},"author":{"name":"Hownestly","@id":"https://hownestly.com/#/schema/person/e17e09de1d17f28c591664bbc3a9e82d"},"headline":"Stop the Lag: How to Update tModLoader Server Version Without Breaking Your World","datePublished":"2025-11-29T11:01:19+00:00","mainEntityOfPage":{"@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/"},"wordCount":7856,"publisher":{"@id":"https://hownestly.com/#organization"},"image":{"@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#primaryimage"},"thumbnailUrl":"https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/","url":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/","name":"How to Update tModLoader Server Version & Prevent Mod Conflicts - Hownestly","isPartOf":{"@id":"https://hownestly.com/#website"},"primaryImageOfPage":{"@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#primaryimage"},"image":{"@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#primaryimage"},"thumbnailUrl":"https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg","datePublished":"2025-11-29T11:01:19+00:00","description":"A direct, no-fluff guide on how to update your tModLoader server version for hosts (manual and panel) and the critical steps to avoid mod version hell. Get your server running smoothly.","breadcrumb":{"@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://hownestly.com/how-to-update-tmodloader-server-version-guide/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#primaryimage","url":"https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg","contentUrl":"https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg","width":1200,"height":630,"caption":"Stop the Lag: How to Update tModLoader Server Version Without Breaking Your World"},{"@type":"BreadcrumbList","@id":"https://hownestly.com/how-to-update-tmodloader-server-version-guide/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hownestly.com/"},{"@type":"ListItem","position":2,"name":"Stop the Lag: How to Update tModLoader Server Version Without Breaking Your World"}]},{"@type":"WebSite","@id":"https://hownestly.com/#website","url":"https://hownestly.com/","name":"Hownestly","description":"Just Another How-to Site","publisher":{"@id":"https://hownestly.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://hownestly.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://hownestly.com/#organization","name":"Hownestly","url":"https://hownestly.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://hownestly.com/#/schema/logo/image/","url":"","contentUrl":"","caption":"Hownestly"},"image":{"@id":"https://hownestly.com/#/schema/logo/image/"}},{"@type":"Person","@id":"https://hownestly.com/#/schema/person/e17e09de1d17f28c591664bbc3a9e82d","name":"Hownestly","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://hownestly.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/4cc4f0c0c3e70616d31516de9b244d71b5a7eea63d1e100d8f91211263597fb8?s=96&d=wavatar&r=g","contentUrl":"https://secure.gravatar.com/avatar/4cc4f0c0c3e70616d31516de9b244d71b5a7eea63d1e100d8f91211263597fb8?s=96&d=wavatar&r=g","caption":"Hownestly"},"sameAs":["https://hownestly.com"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<style id='classic-theme-styles-inline-css'>/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id='global-styles-inline-css'>:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--text: var(--text);--wp--preset--color--bg: var(--bg);--wp--preset--color--secondary: var(--secondary);--wp--preset--color--primary: var(--primary);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel='stylesheet' id='ez-toc-css' href='https://hownestly.com/wp-content/cache/flying-press/4e9656055ed5.screen.min.css' media='all' />
+<style id='ez-toc-inline-css'>div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-toc-title {font-weight: 500;}div#ez-toc-container ul li , div#ez-toc-container ul li a {font-size: 95%;}div#ez-toc-container ul li , div#ez-toc-container ul li a {font-weight: 500;}div#ez-toc-container nav ul ul li {font-size: 90%;}.ez-toc-box-title {font-weight: bold; margin-bottom: 10px; text-align: center; text-transform: uppercase; letter-spacing: 1px; color: #666; padding-bottom: 5px;position:absolute;top:-4%;left:5%;background-color: inherit;transition: top 0.3s ease;}.ez-toc-box-title.toc-closed {top:-25%;}
+.ez-toc-container-direction {direction: ltr;}.ez-toc-counter ul{counter-reset: item ;}.ez-toc-counter nav ul li a::before {content: counters(item, '.', decimal) '. ';display: inline-block;counter-increment: item;flex-grow: 0;flex-shrink: 0;margin-right: .2em; float: left; }.ez-toc-widget-direction {direction: ltr;}.ez-toc-widget-container ul{counter-reset: item ;}.ez-toc-widget-container nav ul li a::before {content: counters(item, '.', decimal) '. ';display: inline-block;counter-increment: item;flex-grow: 0;flex-shrink: 0;margin-right: .2em; float: left; }</style>
+<link rel='stylesheet' id='generate-style-css' href='https://hownestly.com/wp-content/cache/flying-press/b7e067012db6.main.min.css' media='all' />
+<style id='generate-style-inline-css'>.is-right-sidebar{width:30%;}.is-left-sidebar{width:30%;}.site-content .content-area{width:70%;}@media (max-width: 768px){.main-navigation .menu-toggle,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav,.main-navigation:not(.slideout-navigation):not(.toggled) .main-nav > ul,.has-inline-mobile-toggle #site-navigation .inside-navigation > *:not(.navigation-search):not(.main-nav){display:none;}.nav-align-right .inside-navigation,.nav-align-center .inside-navigation{justify-content:space-between;}.has-inline-mobile-toggle .mobile-menu-control-wrapper{display:flex;flex-wrap:wrap;}.has-inline-mobile-toggle .inside-header{flex-direction:row;text-align:left;flex-wrap:wrap;}.has-inline-mobile-toggle .header-widget,.has-inline-mobile-toggle #site-navigation{flex-basis:100%;}.nav-float-left .has-inline-mobile-toggle #site-navigation{order:10;}}
+.dynamic-author-image-rounded{border-radius:100%;}.dynamic-featured-image, .dynamic-author-image{vertical-align:middle;}.one-container.blog .dynamic-content-template:not(:last-child), .one-container.archive .dynamic-content-template:not(:last-child){padding-bottom:0px;}.dynamic-entry-excerpt > p:last-child{margin-bottom:0px;}</style>
+<link rel='stylesheet' id='generate-google-fonts-css' href="https://hownestly.com/wp-content/cache/flying-press/f1c741f554b7.06721a11b504.google-font.css" media='all' />
+<link rel='stylesheet' id='generatepress-dynamic-css' href='https://hownestly.com/wp-content/cache/flying-press/0480d694f5e4.style.min.css' media='all' />
+<link rel='stylesheet' id='generate-child-css' href='https://hownestly.com/wp-content/cache/flying-press/a7b0c8dbf98f.style.css' media='all' />
+<link rel='stylesheet' id='generate-blog-images-css' href='https://hownestly.com/wp-content/cache/flying-press/07e59a4db799.featured-images.min.css' media='all' />
+<script src="https://hownestly.com/wp-includes/js/jquery/jquery.min.js?ver=826eb77e86b0" id="jquery-core-js" defer></script>
+<script id="mathjax-v4-js-before" defer src="data:text/javascript,window.MathJax%20%3D%20%7B%0A%20%20%20%20%20%20tex%3A%20%7B%0A%20%20%20%20%20%20%20%20inlineMath%3A%20%5B%0A%09%09%09%5B%27%24%27%2C%20%27%24%27%5D%2C%0A%2F%2F%20%09%09%09%5B%27%5C%28%27%2C%20%27%5C%29%27%5D%0A%09%09%5D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%3B"></script>
+<script src="https://hownestly.com/wp-content/cache/flying-press/tex-mml-chtml.js" id="mathjax-v4-js" data-origin-src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js?ver=4.0.0" defer></script>
+<link rel="icon" href="https://hownestly.com/wp-content/uploads/2025/11/cropped-Gemini_Generated_Image_poetdzpoetdzpoet-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hownestly.com/wp-content/uploads/2025/11/cropped-Gemini_Generated_Image_poetdzpoetdzpoet-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hownestly.com/wp-content/uploads/2025/11/cropped-Gemini_Generated_Image_poetdzpoetdzpoet-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hownestly.com/wp-content/uploads/2025/11/cropped-Gemini_Generated_Image_poetdzpoetdzpoet-270x270.png" />
+<script type="speculationrules">{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/*.php","\/wp-(admin|includes|content|login|signup|json)(.*)?","\/*\\?(.+)","\/(cart|checkout|logout)(.*)?"]}}]},"eagerness":"moderate"}]}</script></head>
+
+<body class="wp-singular post-template-default single single-post postid-2157 single-format-standard wp-embed-responsive wp-theme-generatepress wp-child-theme-generatepress_child post-image-below-header post-image-aligned-center sticky-menu-fade right-sidebar nav-float-right separate-containers header-aligned-left dropdown-hover featured-image-active" itemtype="https://schema.org/Blog" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header class="site-header has-inline-mobile-toggle" id="masthead" aria-label="Site"  itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container">
+				<div class="site-branding">
+						<p class="main-title" itemprop="headline">
+					<a href="https://hownestly.com/" rel="home">Hownestly</a>
+				</p>
+						
+					</div>	<nav class="main-navigation mobile-menu-control-wrapper" id="mobile-menu-control-wrapper" aria-label="Mobile Toggle">
+				<button data-nav="site-navigation" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" /></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" /></svg></span><span class="screen-reader-text">Menu</span>		</button>
+	</nav>
+			<nav class="main-navigation sub-menu-right" id="site-navigation" aria-label="Primary"  itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" /></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" /></svg></span><span class="screen-reader-text">Menu</span>				</button>
+						<div id="primary-menu" class="main-nav">
+			<ul class="menu sf-menu">
+				<li class="page_item page-item-4243"><a href="https://hownestly.com/links/">Links</a></li>
+			</ul>
+		</div>
+					</div>
+		</nav>
+					</div>
+		</header>
+		
+	<div class="site grid-container container hfeed" id="page">
+				<div class="site-content" id="content">
+			
+	<div class="content-area" id="primary">
+		<main class="site-main" id="main">
+			
+<article id="post-2157" class="post-2157 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+					<header class="entry-header">
+				<h1 class="entry-title" itemprop="headline">Stop the Lag: How to Update tModLoader Server Version Without Breaking Your World</h1>		<div class="entry-meta">
+			<span class="posted-on"><time class="entry-date published" datetime="2025-11-29T19:01:19+08:00" itemprop="datePublished">November 29, 2025</time></span> 		</div>
+					</header>
+			<div class="featured-image  page-header-image-single ">
+				<img width="1200" height="630" src="https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg" class="attachment-full size-full" alt="Stop the Lag: How to Update tModLoader Server Version Without Breaking Your World" itemprop="image" decoding="async" fetchpriority="low" srcset="https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world.jpg 1200w, https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world-300x158.jpg 300w, https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world-1024x538.jpg 1024w, https://hownestly.com/wp-content/uploads/2025/11/stop-the-lag-how-to-update-tmodloader-server-version-without-breaking-your-world-768x403.jpg 768w" sizes="auto"  loading="lazy"/>
+			</div>
+		<div class="entry-content" itemprop="text">
+			<img decoding="async" src="" style="float:right;" align="right" /><p>Ever notice how updating a game server feels like you need a degree in Ancient Computer Magic?  Frustrating, right?</p>
+<p>Especially when you&#8217;re trying to play <strong>Terraria with tModLoader</strong>, and suddenly, the server is yelling at you because the versions don&#8217;t match. Ugh.</p>
+<p>Look, this isn&#8217;t rocket science, but the official instructions definitely make it sound like it is. You just want to play with your friends, not become a server admin guru. I get it.</p>
+<p>Here&#8217;s the deal: You need to make sure the <strong>tModLoader server version</strong> is the same as the tModLoader version you&#8217;re running on your game. If they aren&#8217;t, nobody gets to play.</p>
+<p>So, let&#8217;s skip the jargon and get your Terraria modded server updated the easy way. This is how you stop the complaining and start the building.</p>
+<hr />
+<div id="ez-toc-container" class="ez-toc-v2_0_78 counter-hierarchy ez-toc-counter ez-toc-grey ez-toc-container-direction">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title" style="cursor:inherit">Table of Contents</p>
+<span class="ez-toc-title-toggle"><a href="#" class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle" aria-label="Toggle Table of Content"><span class="ez-toc-js-icon-con"><span class=""><span class="eztoc-hide" style="display:none;">Toggle</span><span class="ez-toc-icon-toggle-span"><svg style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg" class="list-377408" width="20px" height="20px" viewBox="0 0 24 24" fill="none"><path d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z" fill="currentColor"></path></svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013" xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny"><path d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z"/></svg></span></span></span></a></span></div>
+<nav><ul class='ez-toc-list ez-toc-list-level-1 ' ><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-1" href="#%F0%9F%8E%AE_The_Quick_and_Dirty_Way_to_Update_tModLoader_Server" >🎮 The Quick and Dirty Way to Update tModLoader Server</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-2" href="#Method_1_The_Steam_Way_If_You_Used_the_Steam_App" >Method 1: The Steam Way (If You Used the Steam App)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-3" href="#Method_2_The_Manual_File_Swap_The_Real_Way_to_Update" >Method 2: The Manual File Swap (The Real Way to Update)</a><ul class='ez-toc-list-level-4' ><li class='ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-4" href="#Step_1_Find_the_Right_Files" >Step 1: Find the Right Files</a></li><li class='ez-toc-page-1 ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-5" href="#Step_2_Swap_the_Server_Files" >Step 2: Swap the Server Files</a></li><li class='ez-toc-page-1 ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-6" href="#Step_3_Start_the_Updated_Server" >Step 3: Start the Updated Server</a></li></ul></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-7" href="#%F0%9F%9B%91_What_If_You_Messed_Up_Troubleshooting" >🛑 What If You Messed Up? (Troubleshooting)</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-8" href="#%E2%80%9CMy_Server_and_Client_Versions_Still_Dont_Match%E2%80%9D" >&#8220;My Server and Client Versions Still Don&#8217;t Match!&#8221;</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-9" href="#%E2%80%9CNow_My_Mods_Are_Gone%E2%80%9D" >&#8220;Now My Mods Are Gone!&#8221;</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-10" href="#%F0%9F%9A%80_Final_Takeaway" >🚀 Final Takeaway</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-11" href="#%F0%9F%92%BE_First_the_Server_Safety_Dance_Back_Up_Your_Stuff" >💾 First, the Server Safety Dance: Back Up Your Stuff</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-12" href="#Your_World_Files_Are_Everything" >Your World Files Are Everything</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-13" href="#Copy_and_Paste_Is_Your_Best_Friend" >Copy and Paste Is Your Best Friend</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-14" href="#%F0%9F%9B%A0%EF%B8%8F_Get_the_New_Server_Version_But_Get_the_Right_One" >🛠️ Get the New Server Version (But Get the Right One!)</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-15" href="#Where_to_Find_the_Right_File" >Where to Find the Right File</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-16" href="#Replacing_the_Old_Files" >Replacing the Old Files</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-17" href="#%E2%9C%85_Final_Check_Start_It_Up_and_Play" >✅ Final Check: Start It Up and Play</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-18" href="#What_Happens_Next" >What Happens Next?</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-19" href="#%F0%9F%98%AB_Why_Your_tModLoader_Server_Update_Always_Breaks" >😫 Why Your tModLoader Server Update Always Breaks</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-20" href="#%F0%9F%9B%A0%EF%B8%8F_Step_1_Back_Up_Everything_Seriously_Do_It" >🛠️ Step 1: Back Up Everything (Seriously, Do It)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-21" href="#%E2%AC%87%EF%B8%8F_Step_2_Download_the_Latest_Server_Files" >⬇️ Step 2: Download the Latest Server Files</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-22" href="#%F0%9F%9B%91_How_to_STOP_Mod_Conflicts_Before_They_Happen" >🛑 How to STOP Mod Conflicts Before They Happen</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-23" href="#%F0%9F%94%91_The_Golden_Rule_Server_Mods_Player_Mods" >🔑 The Golden Rule: Server Mods = Player Mods</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-24" href="#%F0%9F%93%9D_The_Easy_Way_to_Sync_Your_Mod_Lists" >📝 The Easy Way to Sync Your Mod Lists</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-25" href="#%E2%9A%A1_Quick_Reality_Check" >⚡ Quick Reality Check</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-26" href="#%F0%9F%A4%AC_Your_tModLoader_Server_Is_Broken_Again_Heres_the_Easy_Fix" >🤬 Your tModLoader Server Is Broken (Again). Here&#8217;s the Easy Fix.</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-27" href="#%F0%9F%9B%A0%EF%B8%8F_Step_1_Back_That_Thing_Up_Seriously" >🛠️ Step 1: Back That Thing Up (Seriously)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-28" href="#%F0%9F%92%BB_How_to_Update_Your_Server_Based_on_Your_Host" >💻 How to Update Your Server Based on Your Host</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-29" href="#If_You_Use_a_Server_Panel_Bisect_Nodecraft_etc" >If You Use a Server Panel (Bisect, Nodecraft, etc.)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-30" href="#If_You_Run_the_Server_Manually_SteamCMD_or_Script" >If You Run the Server Manually (SteamCMD or Script)</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-31" href="#%F0%9F%9B%91_Step_2_Avoid_Mod_Version_Hell" >🛑 Step 2: Avoid Mod Version Hell</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-32" href="#The_Golden_Rule_for_Mod_Updates" >The Golden Rule for Mod Updates</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-33" href="#%F0%9F%9A%80_Ready_to_Play" >🚀 Ready to Play</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-34" href="#%F0%9F%9B%A0%EF%B8%8F_The_Absolute_Easiest_Way_to_Update_Your_Server_Seriously" >🛠️ The Absolute Easiest Way to Update Your Server (Seriously)</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-35" href="#%F0%9F%8E%AE_Step_1_Fire_Up_the_Servers_Command_Line" >🎮 Step 1: Fire Up the Server&#8217;s Command Line</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-36" href="#%E2%AC%86%EF%B8%8F_Step_2_Run_the_Magic_Update_Command" >⬆️ Step 2: Run the Magic Update Command</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-37" href="#%E2%9C%A8_Whats_Happening_Now" >✨ What&#8217;s Happening Now?</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-38" href="#%F0%9F%A7%90_Wait_Why_Did_My_Server_Version_Change" >🧐 Wait, Why Did My Server Version Change?</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-39" href="#%F0%9F%93%9D_Troubleshooting_When_It_All_Goes_Wrong" >📝 Troubleshooting: When It All Goes Wrong</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-40" href="#%F0%9F%92%BE_The_Manual_%E2%80%9CI_Need_It_Done_Now%E2%80%9D_Method" >💾 The Manual, &#8220;I Need It Done Now&#8221; Method</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-41" href="#%F0%9F%94%A8_How_to_Update_Your_Terraria_tModLoader_Server_Without_Breaking_Everything_Seriously" >🔨 How to Update Your Terraria tModLoader Server Without Breaking Everything (Seriously)</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-42" href="#%F0%9F%9B%A1%EF%B8%8F_The_Absolutely_CRITICAL_Pre-Update_Checklist_Dont_Skip_This" >🛡️ The Absolutely CRITICAL Pre-Update Checklist (Don&#8217;t Skip This!)</a><ul class='ez-toc-list-level-4' ><li class='ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-43" href="#1_Back_Up_Your_World_and_Player_Files_No_Excuses" >1. Back Up Your World and Player Files (No Excuses)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-44" href="#2_Check_the_Version_Numbers" >2. Check the Version Numbers</a></li><li class='ez-toc-page-1 ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-45" href="#3_Know_Your_Mods_Status" >3. Know Your Mods’ Status</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-46" href="#%F0%9F%9B%A0%EF%B8%8F_The_Walkthrough_Updating_Your_Server_Based_on_Its_Type" >🛠️ The Walkthrough: Updating Your Server Based on Its Type</a><ul class='ez-toc-list-level-4' ><li class='ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-47" href="#1_If_You_Use_a_Hosting_Panel_The_Easiest_Way" >1. If You Use a Hosting Panel (The Easiest Way)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-48" href="#2_If_You_Use_SteamCMD_or_Run_Manually_The_Classic_Way" >2. If You Use SteamCMD or Run Manually (The Classic Way)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-49" href="#3_If_You_Use_Docker_The_Clean_Way" >3. If You Use Docker (The Clean Way)</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-50" href="#%F0%9F%9A%A8_Post-Update_Chaos_Dealing_with_%E2%80%9CMod_Hell%E2%80%9D" >🚨 Post-Update Chaos: Dealing with &#8220;Mod Hell&#8221;</a><ul class='ez-toc-list-level-4' ><li class='ez-toc-heading-level-4'><a class="ez-toc-link ez-toc-heading-51" href="#The_Cleanup_Strategy_Find_the_Culprit" >The Cleanup Strategy: Find the Culprit</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-52" href="#%F0%9F%9B%91_Quick_Reality_Check" >🛑 Quick Reality Check</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-53" href="#The_Pre-Flight_Checklist_3_Crucial_Steps_Before_You_Update_Your_tModLoader_Server_Version" >The Pre-Flight Checklist: 3 Crucial Steps Before You Update Your tModLoader Server Version</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-54" href="#Backup_Your_World_and_Player_Data_The_%E2%80%98Dont_Be_a_Statistic_Rule" >Backup Your World and Player Data (The &#8216;Don&#8217;t Be a Statistic&#8217; Rule)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-55" href="#Mod_Compatibility_Audit_Why_the_ClientServer_Mismatch_is_the_Real_Killer" >Mod Compatibility Audit: Why the Client/Server Mismatch is the Real Killer</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-56" href="#Pin_Down_the_Target_Finding_the_Official_tModLoader_Version_Number" >Pin Down the Target: Finding the Official tModLoader Version Number</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-57" href="#The_Execution_How_to_Update_tModLoader_Server_Version_Based_on_Your_Setup" >The Execution: How to Update tModLoader Server Version Based on Your Setup</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-58" href="#The_Easy_Route_Host_Panel_Update_BisectNodecraftetc" >The Easy Route: Host Panel Update (Bisect/Nodecraft/etc.)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-59" href="#The_Command_Line_Updating_with_SteamCMD_and_Dedicated_Server_Scripts" >The Command Line: Updating with SteamCMD and Dedicated Server Scripts</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-60" href="#The_Client_is_Not_Updated_Why_Your_Players_Get_Stuck_on_%E2%80%98Connecting" >The Client is Not Updated: Why Your Players Get Stuck on &#8216;Connecting&#8217;</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-61" href="#The_Honest_Truth_About_tModLoader_Version_Downgrades_and_Risks" >The Honest Truth About tModLoader Version Downgrades and Risks</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-62" href="#When_Downgrading_is_Necessary_and_Why_Its_Dangerous" >When Downgrading is Necessary (and Why It&#8217;s Dangerous)</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-63" href="#Troubleshooting_The_Dreaded_%E2%80%98Stuck_on_Connecting_Error_and_Mod_Version_Hell" >Troubleshooting: The Dreaded &#8216;Stuck on Connecting&#8217; Error and Mod Version Hell</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-64" href="#Quick_Reality_Check_Your_Next_Move_After_the_Server_Update" >Quick Reality Check: Your Next Move After the Server Update</a></li></ul></nav></div>
+<h2><span class="ez-toc-section" id="%F0%9F%8E%AE_The_Quick_and_Dirty_Way_to_Update_tModLoader_Server"></span>🎮 The Quick and Dirty Way to Update tModLoader Server<span class="ez-toc-section-end"></span></h2>
+<p>This whole process is basically downloading the new stuff and dropping it where the old stuff used to be. It&#8217;s way easier than trying to remember your Wi-Fi password.</p>
+<p>There are two main ways to <strong>update your tModLoader server</strong>. One is super simple if you started with the Steam version. The other is a little more hands-on for everyone else.</p>
+<h3><span class="ez-toc-section" id="Method_1_The_Steam_Way_If_You_Used_the_Steam_App"></span>Method 1: The Steam Way (If You Used the Steam App)<span class="ez-toc-section-end"></span></h3>
+<p>This is the &#8220;easiest button available&#8221; option, but only works if you&#8217;ve been launching your dedicated server through the actual tModLoader application on Steam.</p>
+<ol>
+<li><strong>Update the Game:</strong> First, make sure your regular tModLoader game on Steam is <strong>already updated</strong>. Steam handles this automatically, but maybe give it a quick check. If you launched the game recently, you&#8217;re probably good.</li>
+<li><strong>Run the Server from Steam:</strong> Go to your Steam Library, find tModLoader, and hit <strong>Play</strong>. When it asks what you want to do, choose the option that says <strong>&#8220;Launch Server&#8221;</strong> or <strong>&#8220;Launch Dedicated Server.&#8221;</strong></li>
+<li><strong>Magic Happens:</strong> Here&#8217;s the cool part: When you launch the server this way, tModLoader often checks for and <strong>updates its own server files</strong> in the background. It basically fixes itself.</li>
+</ol>
+<p>But here&#8217;s the thing: If that doesn&#8217;t work, or if you&#8217;re running the server on a completely separate computer without Steam, you have to do it the old-school way. Which is still pretty easy, I promise.</p>
+<hr />
+<h3><span class="ez-toc-section" id="Method_2_The_Manual_File_Swap_The_Real_Way_to_Update"></span>Method 2: The Manual File Swap (The Real Way to Update)<span class="ez-toc-section-end"></span></h3>
+<p>This is how the pros (and now you) <strong>update the tModLoader server</strong> for real. You&#8217;re just manually replacing the engine of your server with a newer one.</p>
+<h4><span class="ez-toc-section" id="Step_1_Find_the_Right_Files"></span>Step 1: Find the Right Files<span class="ez-toc-section-end"></span></h4>
+<p>Look, the first step in any surgery is finding the right tool. In this case, it&#8217;s the right version of the server files.</p>
+<ol>
+<li><strong>Check Your Game Version:</strong> Start tModLoader on your PC. Look at the <strong>bottom-right corner</strong> of the title screen. You&#8217;ll see the version number, like <strong>v2024.06.25.12</strong>. Write that down. That’s the version you need.</li>
+<li><strong>Grab the Server Download:</strong> You need to go to the official tModLoader GitHub page. Don&#8217;t panic, it&#8217;s just a link to a file. You want to look for the version number that matches what you wrote down. It&#8217;s usually called something like <code>tModLoader.Server.v[Your Version Number].zip</code>. <strong>Download that file.</strong></li>
+<li><strong>Unzip the Files:</strong> Double-click the downloaded ZIP file. You&#8217;ll see a bunch of files inside, including the one you care most about: <strong><code>tModLoaderServer.exe</code></strong>.</li>
+</ol>
+<h4><span class="ez-toc-section" id="Step_2_Swap_the_Server_Files"></span>Step 2: Swap the Server Files<span class="ez-toc-section-end"></span></h4>
+<p>Now you just need to drop those shiny new files into your existing server folder. It&#8217;s like upgrading the engine in your car.</p>
+<ol>
+<li><strong>Find Your Server Folder:</strong> You need to know where your old server files are. If you’re running a dedicated server, you know where this is. If you&#8217;re using the standard tModLoader path, it&#8217;s usually inside your <strong>Documents\My Games\Terraria\tModLoader\Worlds</strong> folder (though the exact location depends on your setup).</li>
+<li><strong>Delete the Old Files:</strong> Find your existing <strong><code>tModLoaderServer.exe</code></strong> and any other old files that came with it. <strong>Delete them</strong>. Yeah, really. You don&#8217;t want old parts mixing with new ones.</li>
+<li><strong>Copy the New Files:</strong> Take ALL the files you unzipped from the download and <strong>copy them into your server folder.</strong></li>
+</ol>
+<p>That&#8217;s it. You just replaced the old, outdated server program with the new one.</p>
+<h4><span class="ez-toc-section" id="Step_3_Start_the_Updated_Server"></span>Step 3: Start the Updated Server<span class="ez-toc-section-end"></span></h4>
+<p>Now you just launch the new program like you always did.</p>
+<ul>
+<li>Find and double-click the new <strong><code>tModLoaderServer.exe</code></strong> file in your server folder.</li>
+<li>The server will start up, and you&#8217;ll see the new version number pop up in the command window.</li>
+</ul>
+<p><strong>Quick Reality Check:</strong> If you did this right, the version number on your server screen and the version number on your game’s title screen should be <strong>exactly the same</strong>. If they match, you&#8217;re good to go!</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9B%91_What_If_You_Messed_Up_Troubleshooting"></span>🛑 What If You Messed Up? (Troubleshooting)<span class="ez-toc-section-end"></span></h2>
+<p>Hey, it happens. If your server is still being a pain, here are the most common ways people screw this up.</p>
+<h3><span class="ez-toc-section" id="%E2%80%9CMy_Server_and_Client_Versions_Still_Dont_Match%E2%80%9D"></span>&#8220;My Server and Client Versions Still Don&#8217;t Match!&#8221;<span class="ez-toc-section-end"></span></h3>
+<p>This is 99% of the problems.</p>
+<ul>
+<li><strong>You Downloaded the Wrong Version:</strong> Did you download the <em>exact</em> version number you saw on your game&#8217;s title screen? If your game is <strong>v2024.07.01.1</strong> and your server is <strong>v2024.06.25.12</strong>, it won&#8217;t work. Go back and check those numbers.</li>
+<li><strong>You Missed a File:</strong> Did you copy <em>all</em> the files from the ZIP? Sometimes there are important files alongside the main <code>.exe</code>. Copy them all. It&#8217;s safer.</li>
+</ul>
+<h3><span class="ez-toc-section" id="%E2%80%9CNow_My_Mods_Are_Gone%E2%80%9D"></span>&#8220;Now My Mods Are Gone!&#8221;<span class="ez-toc-section-end"></span></h3>
+<p>Don&#8217;t worry, your mods should be safe.</p>
+<ul>
+<li><strong>Server Mods:</strong> Server mods are stored in a different folder, usually in <strong>Documents\My Games\Terraria\tModLoader\Mods</strong>. Updating the server program (the <code>.exe</code> file) <strong>doesn&#8217;t touch</strong> your mod files. They&#8217;re still there.</li>
+</ul>
+<p>Bottom line: The server program and the server&#8217;s mod files are in two different places. You only replaced the program. Everything else is fine.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9A%80_Final_Takeaway"></span>🚀 Final Takeaway<span class="ez-toc-section-end"></span></h2>
+<p>So that&#8217;s the deal. <strong>Updating your tModLoader server version</strong> is just a simple file swap. Don&#8217;t overthink it. Find the current version number, download the matching server ZIP file, delete the old server files in your server folder, and copy the new ones over.</p>
+<p>Look, it doesn&#8217;t have to be a confusing nightmare. Just match the numbers and swap the files.</p>
+<p>What are you waiting for? Go get your server updated and finally get back to building that questionable dirt mansion with your friends.</p>
+<p>Ugh, you know that moment. You fire up your <strong>tModLoader server</strong> to chill with your friends, only to get that awful &#8220;version mismatch&#8221; error. Frustrating, right? </p>
+<p>It&#8217;s like showing up to a party in the wrong decade. You&#8217;re ready to game, but your server is rocking a version of the software that&#8217;s ancient history. And here&#8217;s the thing: doing an update wrong means saying goodbye to your perfectly built world, and nobody wants that mess.</p>
+<p>Look, this isn&#8217;t rocket science, but there are a few key steps you can&#8217;t skip. Everyone online makes it sound way too complicated.</p>
+<p>We&#8217;re going to keep it real simple. We&#8217;re going to talk about <strong>how to update tModLoader server</strong> version without getting confused. You&#8217;ll keep your world, you&#8217;ll update the server, and you&#8217;ll be back to fighting bosses in minutes. No drama, no lost progress.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%92%BE_First_the_Server_Safety_Dance_Back_Up_Your_Stuff"></span>💾 First, the Server Safety Dance: Back Up Your Stuff<span class="ez-toc-section-end"></span></h2>
+<p>You wouldn&#8217;t drive without a seatbelt, so don&#8217;t update your server without a <strong>backup</strong>. This is the one non-negotiable step. Seriously.</p>
+<p>I&#8217;ve wasted hours recovering worlds because I thought, &#8220;Nah, I&#8217;ll be fine.&#8221; Don&#8217;t be like me.</p>
+<h3><span class="ez-toc-section" id="Your_World_Files_Are_Everything"></span>Your World Files Are Everything<span class="ez-toc-section-end"></span></h3>
+<p>So, where are your server files hiding? They&#8217;re usually buried in a super specific folder on your computer.</p>
+<p>For most of us running Windows, you&#8217;ll find everything in your <strong>Terraria folder</strong>, which is inside your <strong>Documents</strong> folder.</p>
+<ul>
+<li><strong>PC Path (usually):</strong> <code>C:\Users\[Your User Name]\Documents\My Games\Terraria\tModLoader</code></li>
+</ul>
+<p>Once you&#8217;re in the <code>tModLoader</code> folder, you&#8217;re looking for the files that actually matter for your world.</p>
+<ul>
+<li><strong>The World Folder:</strong> This folder is named after your world. Copy the whole thing.</li>
+<li><strong>The Player Folder:</strong> This one&#8217;s for your characters. Copy it, too!</li>
+<li><strong>Mods Folder:</strong> Copy this folder to save your enabled mods and settings.</li>
+</ul>
+<h3><span class="ez-toc-section" id="Copy_and_Paste_Is_Your_Best_Friend"></span>Copy and Paste Is Your Best Friend<span class="ez-toc-section-end"></span></h3>
+<p>Here&#8217;s the deal: <strong>Just copy these three folders</strong> and paste them somewhere safe. Put them on your desktop or in a separate folder called &#8220;TML Server Backup_[Today&#8217;s Date]&#8221;.</p>
+<p>Look, it takes 30 seconds. This copy is your insurance policy against a disaster. If the update goes sideways, you just drag these folders back and your world is safe. Easy.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9B%A0%EF%B8%8F_Get_the_New_Server_Version_But_Get_the_Right_One"></span>🛠️ Get the New Server Version (But Get the Right One!)<span class="ez-toc-section-end"></span></h2>
+<p>Okay, now that you&#8217;re safe, it&#8217;s time to actually get the new stuff. You need the <strong>standalone server files</strong> for the latest tModLoader version. Don&#8217;t just rely on the Steam version alone.</p>
+<h3><span class="ez-toc-section" id="Where_to_Find_the_Right_File"></span>Where to Find the Right File<span class="ez-toc-section-end"></span></h3>
+<p>This part is a little bit of a hunt, but it&#8217;s important. You can find the correct files on the official <strong>tModLoader GitHub page</strong> or the dedicated forums.</p>
+<p>You&#8217;re looking for a file that&#8217;s labeled something like &#8220;<strong>tModLoader_[Version Number]_Server.zip</strong>.&#8221;</p>
+<ul>
+<li><strong>Hot Tip:</strong> Make sure the version number matches the one your friends are using on their game client! If their game is on v1.4.4.9, your server needs to be on v1.4.4.9. Don&#8217;t mix &#8216;n&#8217; match.</li>
+</ul>
+<p>Once you have that zip file, save it somewhere easy to find, like your Downloads folder.</p>
+<h3><span class="ez-toc-section" id="Replacing_the_Old_Files"></span>Replacing the Old Files<span class="ez-toc-section-end"></span></h3>
+<p>Now for the surgical strike.</p>
+<ol>
+<li><strong>Stop Your Old Server:</strong> Make sure your existing server is completely shut down. Like, 100% off.</li>
+<li><strong>Unzip the New Server Files:</strong> Right-click the new server zip you downloaded and hit &#8220;Extract All.&#8221;</li>
+<li><strong>The Overwrite:</strong> Copy all the files from that new, unzipped folder. Now, go into the server folder where your <strong>old</strong> server files live.</li>
+<li><strong>Paste and Replace:</strong> Paste the new files into your old server folder. Windows will ask if you want to replace files with the same name. <strong>Say yes!</strong> You want to replace the ancient files with the fresh, new ones. </li>
+</ol>
+<p>This step updates the core <strong>tModLoader</strong> server program, but leaves your precious world and player data untouched. Genius, right?</p>
+<hr />
+<h2><span class="ez-toc-section" id="%E2%9C%85_Final_Check_Start_It_Up_and_Play"></span>✅ Final Check: Start It Up and Play<span class="ez-toc-section-end"></span></h2>
+<p>You did the hard work. Now for the payoff.</p>
+<p>Go into that main server folder and find the file that actually runs the server. It&#8217;s usually called <strong>Start-tModLoaderServer.bat</strong> or something similar. Double-click it.</p>
+<h3><span class="ez-toc-section" id="What_Happens_Next"></span>What Happens Next?<span class="ez-toc-section-end"></span></h3>
+<p>The server window should pop up and start running. It&#8217;ll probably check your mods and tell you the new version number right away.</p>
+<ol>
+<li><strong>Check the Version:</strong> Look for the message in the server console that tells you the server&#8217;s version. Does it match the version your game client is using? Good.</li>
+<li><strong>Load the World:</strong> Type in the number of your world to load it up.</li>
+<li><strong>Ask a Friend:</strong> Get a friend to try connecting to your server. The dreaded &#8220;version mismatch&#8221; should be gone, replaced with glorious multiplayer action.</li>
+</ol>
+<p>Look, updating your server isn&#8217;t a fun afternoon activity. It&#8217;s annoying. But if you back up your world first and make sure you&#8217;re replacing the old server files with the new ones, it&#8217;s totally painless.</p>
+<p>So that&#8217;s the deal. <strong>Back up, download the correct server ZIP, overwrite the old program files, and you&#8217;re done.</strong> You just saved your world from digital destruction. Now go enjoy the lag-free update.</p>
+<p>What boss are you going to tackle first with the new version?</p>
+<p>Ugh, the eternal nightmare of <strong>tModLoader server version</strong> updates. Frustrating, right?</p>
+<p>You finally get your friends together. You&#8217;ve got the perfect mod list. Then someone (it&#8217;s always that one person) updates their game, and suddenly, you&#8217;re looking at a <strong>Mod Conflict</strong> message. It&#8217;s like having a pizza delivered, only to find half the slices are missing. You wanna scream.</p>
+<p>Look, managing a Terraria server with mods is never simple. It&#8217;s like herding cats while blindfolded. But here&#8217;s the deal: updating your <strong>tModLoader server version</strong> and sorting out mod conflicts is way easier than you think. You just need a quick, no-BS plan.</p>
+<p>I’m going to show you the fastest way to get your server running on the latest version. Plus, I&#8217;ll give you the secret to preventing those annoying mod conflicts before they even start. No more waiting an hour for the server owner (that&#8217;s you!) to fix things.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%98%AB_Why_Your_tModLoader_Server_Update_Always_Breaks"></span>😫 Why Your tModLoader Server Update Always Breaks<span class="ez-toc-section-end"></span></h2>
+<p>Here&#8217;s the cold, hard truth: the second you click that &#8220;Update&#8221; button, you’re creating two different worlds. One world is your single-player game, and the other is your server. And they <strong>stop talking to each other</strong>.</p>
+<p>Think of your server as a cranky old computer and your game as a brand new phone. They both use the same apps (your mods), but if the server (the old computer) hasn&#8217;t been upgraded to handle the new <em>operating system</em> (the latest <strong>tModLoader server version</strong>), nothing works. You get that dreaded &#8220;connection failed&#8221; message.</p>
+<p>This whole process is about getting those two to match again. It has to be a perfect copy of the same version, right down to the last file. </p>
+<h3><span class="ez-toc-section" id="%F0%9F%9B%A0%EF%B8%8F_Step_1_Back_Up_Everything_Seriously_Do_It"></span>🛠️ Step 1: Back Up Everything (Seriously, Do It)<span class="ez-toc-section-end"></span></h3>
+<p>Before you touch <em>anything</em>, <strong>back up your server</strong>. Seriously. Don’t skip this step. It&#8217;s the digital equivalent of wearing a seatbelt. Sure, you might not crash, but if you do, you&#8217;ll be glad you did.</p>
+<p>Go find the folder where your <strong>tModLoader server</strong> files live. Copy the whole thing. Paste it somewhere safe, like a &#8220;DO NOT TOUCH&#8221; folder on your desktop. This means if you mess up, you can delete the broken version and swap the old one back in.</p>
+<h3><span class="ez-toc-section" id="%E2%AC%87%EF%B8%8F_Step_2_Download_the_Latest_Server_Files"></span>⬇️ Step 2: Download the Latest Server Files<span class="ez-toc-section-end"></span></h3>
+<p>You need the dedicated server files. Not the game itself, but the <em>server</em> files. You can find these on the official tModLoader website or through Steam.</p>
+<p><strong>Hot tip from the Department of Obvious:</strong> If your personal tModLoader is running version <strong>v2023.11.3.1</strong>, you <em>must</em> download the dedicated server files for <strong>v2023.11.3.1</strong>. It has to be an exact match.</p>
+<ul>
+<li><strong>Download the correct version</strong> of the server software.</li>
+<li><strong>Unzip the files</strong> you just downloaded.</li>
+<li><strong>Copy everything</strong> inside the unzipped folder.</li>
+</ul>
+<p>Now, go back to your original server folder (the one you backed up). <strong>Paste the new files</strong> right into it, choosing to <strong>overwrite</strong> any existing files. This is the update! You’re just swapping the old engine for the new one.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9B%91_How_to_STOP_Mod_Conflicts_Before_They_Happen"></span>🛑 How to STOP Mod Conflicts Before They Happen<span class="ez-toc-section-end"></span></h2>
+<p>Okay, updating the server version is one thing. Dealing with mod conflicts is a whole other beast. This is when two mods want to do the same thing, like two siblings fighting over the last cookie. The server throws a tantrum and crashes.</p>
+<p>The secret? <strong>Keep your mod list identical and simple.</strong></p>
+<h3><span class="ez-toc-section" id="%F0%9F%94%91_The_Golden_Rule_Server_Mods_Player_Mods"></span>🔑 The Golden Rule: Server Mods = Player Mods<span class="ez-toc-section-end"></span></h3>
+<p>This is the rule everyone forgets, and it’s why your friend keeps getting kicked. The list of mods you have enabled on the <strong>tModLoader server</strong> <em>must</em> be the exact, perfect, carbon-copy list of mods that every single player is using. No exceptions.</p>
+<ul>
+<li><strong>You can&#8217;t have one mod on the server</strong> that a player doesn&#8217;t have.</li>
+<li><strong>A player can&#8217;t have one mod enabled</strong> that isn&#8217;t on the server.</li>
+</ul>
+<p>Know what I mean? If the server has Calamity Mod and the player only has Thorium Mod, that player is getting booted faster than a mime at a library.</p>
+<h3><span class="ez-toc-section" id="%F0%9F%93%9D_The_Easy_Way_to_Sync_Your_Mod_Lists"></span>📝 The Easy Way to Sync Your Mod Lists<span class="ez-toc-section-end"></span></h3>
+<p>Look, manually checking lists is for suckers. There&#8217;s a better way.</p>
+<ol>
+<li><strong>Create your master mod list</strong> on your <em>own</em> single-player TML game. Enable all the ones you want.</li>
+<li><strong>Go to your player files</strong> (usually in your Documents folder under My Games/Terraria/tModLoader).</li>
+<li><strong>Find the <code>enabled.json</code> file</strong>. This is the list!</li>
+<li><strong>Copy this file</strong> and send it to your friends. Tell them to <strong>replace</strong> their own <code>enabled.json</code> file with yours.</li>
+<li><strong>Copy this file</strong> into your <strong>tModLoader server</strong> folder.</li>
+</ol>
+<p>This forces everyone to have the exact same list of mods enabled. You&#8217;re guaranteed to be on the same page, and you’ve cut down on like 90% of all mod conflict issues. Boom.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%E2%9A%A1_Quick_Reality_Check"></span>⚡ Quick Reality Check<span class="ez-toc-section-end"></span></h2>
+<p>Look, running a server is a pain. Don&#8217;t let anyone tell you otherwise.</p>
+<p>The main takeaway here? Your <strong>tModLoader server version</strong> and your game version need to be <strong>identical twins</strong>. And your mod list needs to be <strong>the same list for everyone</strong>.</p>
+<p>So that&#8217;s the deal. Back up, download the correct <em>dedicated server</em> files, overwrite your old ones, and make sure everyone on your team has the exact same <code>enabled.json</code> file. Now go enjoy your server without the constant error messages!</p>
+<p>What mods are you running on your newly-updated server? Spill the tea!</p>
+
+&#8211; Role: SEO content writer who actually sounds human
+&#8211; Mission: Create engaging, ranking content that readers enjoy AND Google loves
+&#8211; Personality: Witty, sarcastic, conversational, opinionated but never mean
+&#8211; Voice: Like texting a knowledgeable friend who keeps it real
+
+<h2><span class="ez-toc-section" id="%F0%9F%A4%AC_Your_tModLoader_Server_Is_Broken_Again_Heres_the_Easy_Fix"></span>🤬 Your tModLoader Server Is Broken (Again). Here&#8217;s the Easy Fix.<span class="ez-toc-section-end"></span></h2>
+<p>Ever load up your <strong>tModLoader server</strong>, super hyped to jump in with your friends, only to get hit with the dreaded &#8220;<strong>Mismatched Version</strong>&#8221; error? Ugh. Frustrating, right? It&#8217;s like your server is actively trying to ruin your Friday night.</p>
+<p>Here&#8217;s the deal: Terraria updates, then tModLoader updates to keep up, and then your server just sits there. You&#8217;ve gotta kick it in the pants to update, too. It’s always a little annoying, but the fix isn&#8217;t complicated.</p>
+<p>This guide will show you how to <strong>update your tModLoader server version</strong> super fast. Plus, I&#8217;ll give you the golden rule to stop your mods from breaking every single time there&#8217;s a patch.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9B%A0%EF%B8%8F_Step_1_Back_That_Thing_Up_Seriously"></span>🛠️ Step 1: <strong>Back That Thing Up</strong> (Seriously)<span class="ez-toc-section-end"></span></h2>
+<p>Look, I know you just want to update and play. But before you touch anything, you absolutely need to <strong>back up your server</strong> files. It&#8217;s like putting on a seatbelt. You might not <em>need</em> it, but if things go sideways, you&#8217;ll be glad it&#8217;s there.</p>
+<p>The last thing you want is for a massive mod conflict to eat your favorite world. If your server host has a &#8220;Create Backup&#8221; button, hit it. If you&#8217;re running it manually, just copy the whole <strong>Terraria</strong> folder somewhere safe.</p>
+<p>Quick reality check: If you skip this, you’re playing with fire. Don&#8217;t be that person.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%92%BB_How_to_Update_Your_Server_Based_on_Your_Host"></span>💻 How to Update Your Server Based on Your Host<span class="ez-toc-section-end"></span></h2>
+<p>How you get the new <strong>tModLoader</strong> version depends entirely on <strong>how you host your server</strong>. You&#8217;re either using a nice, shiny server panel, or you’re running it manually on your own machine.</p>
+<h3><span class="ez-toc-section" id="If_You_Use_a_Server_Panel_Bisect_Nodecraft_etc"></span><strong>If You Use a Server Panel (Bisect, Nodecraft, etc.)</strong><span class="ez-toc-section-end"></span></h3>
+<p>If you paid for a host, they&#8217;ve made this pretty easy. Usually, you don&#8217;t even need to use any confusing command lines.</p>
+<ul>
+<li><strong>Stop the Server:</strong> First, make sure your server is completely <strong>turned off</strong>. You can&#8217;t update while it&#8217;s running!</li>
+<li><strong>Find the Version:</strong> Look for a &#8220;Startup,&#8221; &#8220;Settings,&#8221; or &#8220;Configuration&#8221; tab in your host&#8217;s control panel. There will be a field for the <strong>tModLoader Version</strong>.</li>
+<li><strong>Type in the New Version:</strong> You can usually type in the word <strong>latest</strong>. This tells the host to grab the newest version from SteamCMD or GitHub.
+<ul>
+<li><strong>Pro Tip:</strong> If you&#8217;re trying to roll back or stick to an old version (for mod compatibility), you need to get the <strong>exact version number</strong> from the official tModLoader GitHub releases page.</li>
+</ul></li>
+<li><strong>Reinstall/Update:</strong> After you save that setting, you might need to click a button that says <strong>Reinstall Server</strong> or <strong>Verify File Integrity</strong>. Don&#8217;t freak out. This just tells the server to re-download the main program files, which is where the update lives. Your worlds and mods should be safe.</li>
+<li><strong>Start It Up:</strong> Fire up the server. You should now be running the shiny new version!</li>
+</ul>
+<h3><span class="ez-toc-section" id="If_You_Run_the_Server_Manually_SteamCMD_or_Script"></span><strong>If You Run the Server Manually (SteamCMD or Script)</strong><span class="ez-toc-section-end"></span></h3>
+<p>You&#8217;re running a dedicated server yourself, which means you have more control, but you also have to do more work.</p>
+<p>If you used a utility script or <strong>SteamCMD</strong> to install it, the update process is often just running a single command.</p>
+<ul>
+<li><strong>Using a Management Script:</strong> If you used a popular management script (like the one from the tModLoader docs), you usually just run something like: <code>./manage-tModLoaderServer.sh --update</code>. That script handles all the messy SteamCMD steps for you.</li>
+<li><strong>Using SteamCMD Directly:</strong> If you&#8217;re a real command-line warrior, you need to use the Steam Console Client to update the game files. It looks something like this:
+<ul>
+<li>Log in: <code>login your_steam_username</code></li>
+<li>Force update tModLoader: <code>app_update 1281930 validate</code> (The <code>1281930</code> is the tModLoader App ID).</li>
+<li>Exit: <code>quit</code></li>
+</ul></li>
+</ul>
+<p>This downloads the new files right into your server&#8217;s folder. Now you can run your server&#8217;s start script again.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9B%91_Step_2_Avoid_Mod_Version_Hell"></span>🛑 Step 2: <strong>Avoid Mod Version Hell</strong><span class="ez-toc-section-end"></span></h2>
+<p>Okay, the server is updated. But guess what? Your players still can&#8217;t join, or worse, the game just crashes when you try to load the world. Sound familiar?</p>
+<p>The issue is likely a <strong>mod mismatch</strong>. Your server updated to the latest tModLoader, but your mods are probably still using the old version&#8217;s rules. This is why you must <strong>update all your mods</strong> right after updating tModLoader.</p>
+<h3><span class="ez-toc-section" id="The_Golden_Rule_for_Mod_Updates"></span><strong>The Golden Rule for Mod Updates</strong><span class="ez-toc-section-end"></span></h3>
+<p>Here’s the thing most people mess up: You need to keep your <strong>client</strong> (the game you play on your computer) and your <strong>server</strong> on the <em>same exact version of tModLoader</em>.</p>
+<ul>
+<li><strong>Check Your Client:</strong> In Steam, right-click tModLoader, go to <strong>Properties</strong>, then <strong>Betas</strong>. See that dropdown? If you&#8217;re on a specific older version, your server must be on it, too.</li>
+<li><strong>Use the In-Game Mod Browser:</strong> After your server is updated and running, you need to log into it and use the <strong>Mod Browser</strong>. You can&#8217;t just copy files around. You need to:
+<ol>
+<li>Go to the <strong>Mod Browser</strong>.</li>
+<li>Check for updates for every mod.</li>
+<li><strong>Update everything.</strong></li>
+<li><strong>Reload all mods.</strong></li>
+</ol></li>
+</ul>
+<p>Sometimes, a mod developer hasn&#8217;t updated their mod for the newest tModLoader yet. If a mod is broken, you have two choices: <strong>disable the broken mod</strong> or <strong>rollback your <em>entire server</em> to the previous tModLoader version</strong> where all the mods worked. It’s annoying, but it’s the only way to keep things stable.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9A%80_Ready_to_Play"></span>🚀 Ready to Play<span class="ez-toc-section-end"></span></h2>
+<p>So that&#8217;s the deal. <strong>Backup, update the server, and update your mods.</strong> The mismatched version error is just a pain in the butt, but it’s not a world-ender.</p>
+<p>If you’re still stuck, check the <strong>tModLoader GitHub releases</strong> for the <em>exact</em> version you need. Then, go yell at your server host&#8217;s support team—that’s what you pay them for!</p>
+<p>What are you waiting for? Go murder some bosses!</p>
+<p><strong>Wait, I need the topic/keyword you want me to write about first.</strong></p>
+<p>That number range is&#8230; not super helpful unless it&#8217;s the suggested word count, which is a bit much for a quick text! 😂</p>
+<p>What&#8217;s the <strong>topic</strong> and <strong>main keyword</strong> you&#8217;re looking for content on? Tell me that, and I&#8217;ll get you some advice that actually ranks.</p>
+<p><em>For example: &#8220;write an intro for a blog post about &#8216;best slow cooker recipes for families'&#8221;</em></p>
+<p>Give me the assignment, and let&#8217;s get this done.</p>
+<p>Oh my gosh, you&#8217;ve hit that super annoying point in Terraria, haven&#8217;t you? You&#8217;re ready to jump into your favorite modded world with your friends, but then your <strong>tModLoader server version</strong> is all grumpy and won&#8217;t match the new game update.</p>
+<p>Frustrating, right? It&#8217;s like showing up for a party but your invite is from two years ago. <strong>You&#8217;re stuck on an old server version</strong> while everyone else is playing with the shiny new toys.</p>
+<p>Look, updating your regular Terraria game is easy. Steam does it for you. But when you run a dedicated tModLoader server? That&#8217;s a whole different, slightly more complicated animal.</p>
+<p>Here&#8217;s the deal: We&#8217;re going to fix this. I&#8217;ll walk you through how to <strong>update your tModLoader server version</strong> so it matches the latest client (that&#8217;s the game you play) and you can get back to building, boss-fighting, and probably accidentally deleting your best world. Whoops.</p>
+<p>And here&#8217;s the best part: This method is super simple. You don&#8217;t need to be a coding wizard or spend hours messing with files.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%9B%A0%EF%B8%8F_The_Absolute_Easiest_Way_to_Update_Your_Server_Seriously"></span>🛠️ The Absolute Easiest Way to Update Your Server (Seriously)<span class="ez-toc-section-end"></span></h2>
+<p>So, what&#8217;s the secret? It&#8217;s actually a built-in feature of tModLoader that most people just miss. Seriously, I spent way too long doing this the hard way before realizing there was an easy button.</p>
+<p>You don&#8217;t need to download a whole new server zip file from the tModLoader website every time. <strong>That&#8217;s what makes it complicated!</strong></p>
+<p>The real trick is using the command line tool that comes <em>with</em> your server files.</p>
+<h3><span class="ez-toc-section" id="%F0%9F%8E%AE_Step_1_Fire_Up_the_Servers_Command_Line"></span>🎮 Step 1: Fire Up the Server&#8217;s Command Line<span class="ez-toc-section-end"></span></h3>
+<p>First, you need to find the folder where your tModLoader dedicated server lives. You know, the one with all the confusing files like <code>tModLoaderServer.exe</code>.</p>
+<ol>
+<li><strong>Open that folder.</strong> Find the file named <strong><code>tModLoaderServer.exe</code></strong>.</li>
+<li><strong>Open a Command Prompt or PowerShell window in that folder.</strong>
+<ul>
+<li><strong>Hot Tip:</strong> The super-fast way is to click in the address bar at the top of the folder window (where it says &#8220;C:\Games\TerrariaServer&#8230;&#8221; or whatever).</li>
+<li><strong>Delete the text there and type <code>cmd</code></strong>, then hit Enter. A black window will pop up right in the right spot!</li>
+</ul></li>
+</ol>
+<h3><span class="ez-toc-section" id="%E2%AC%86%EF%B8%8F_Step_2_Run_the_Magic_Update_Command"></span>⬆️ Step 2: Run the Magic Update Command<span class="ez-toc-section-end"></span></h3>
+<p>Now for the real sorcery. You&#8217;re going to tell the server to fetch the newest files for itself.</p>
+<p>In that black Command Prompt window, type this exact command:</p>
+<p><strong><code>tModLoaderServer.exe -steamupdate</code></strong></p>
+<p>Then hit Enter.</p>
+<p>That&#8217;s it. No complicated parameters or confusing file paths.</p>
+<h3><span class="ez-toc-section" id="%E2%9C%A8_Whats_Happening_Now"></span>✨ What&#8217;s Happening Now?<span class="ez-toc-section-end"></span></h3>
+<p>You&#8217;ll see a bunch of text fly past in the window. It looks scary, but it&#8217;s just the server talking to Steam&#8217;s servers.</p>
+<ul>
+<li>It checks to see what version you have.</li>
+<li>It checks to see what the <strong>latest official tModLoader server version</strong> is.</li>
+<li>It downloads and installs the necessary update files <strong>right into your existing server folder</strong>.</li>
+</ul>
+<p>Look, you might have to approve a download or two, but mainly, you just watch the process finish. Once it says it&#8217;s done, you can close that command window.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%A7%90_Wait_Why_Did_My_Server_Version_Change"></span>🧐 Wait, Why Did My Server Version Change?<span class="ez-toc-section-end"></span></h2>
+<p>You might be asking why this even happens. Isn&#8217;t tModLoader supposed to be stable?</p>
+<p>Here&#8217;s a quick reality check: tModLoader is tied to the main game, <strong>Terraria</strong>. When Terraria gets a big update (like a 1.4.4 patch), the old tModLoader version <strong>breaks</strong>. That old tModLoader was only built to work with the <em>old</em> Terraria version.</p>
+<p>So, when the Terraria team drops a new version, the tModLoader team has to rush to build a compatible version. That&#8217;s why you&#8217;re constantly fighting this <strong>tModLoader server version mismatch</strong>.</p>
+<p>The server update command we used just makes sure your server files are in sync with the latest client version you&#8217;re playing. It&#8217;s like changing the tires on your car after an upgrade.</p>
+<hr />
+<h2><span class="ez-toc-section" id="%F0%9F%93%9D_Troubleshooting_When_It_All_Goes_Wrong"></span>📝 Troubleshooting: When It All Goes Wrong<span class="ez-toc-section-end"></span></h2>
+<p>Okay, sometimes the easy way doesn&#8217;t work. Maybe you get a weird error message, or maybe your internet just decided to quit. If the <code>-steamupdate</code> command fails, you have one more option: the slightly less fun but guaranteed method.</p>
+<h3><span class="ez-toc-section" id="%F0%9F%92%BE_The_Manual_%E2%80%9CI_Need_It_Done_Now%E2%80%9D_Method"></span>💾 The Manual, &#8220;I Need It Done Now&#8221; Method<span class="ez-toc-section-end"></span></h3>
+<p>This is like uninstalling and reinstalling an app—it clears everything out and gives you a fresh start.</p>
+<ol>
+<li><strong>Go to the tModLoader Website.</strong> Just search for &#8220;<strong>tModLoader dedicated server</strong> download.&#8221;</li>
+<li><strong>Download the latest Windows zip file.</strong> Make sure it&#8217;s the right one for your computer!</li>
+<li><strong>Back up your stuff!</strong> This is the crucial part. Go into your current server folder and copy the entire <strong><code>Worlds</code></strong> folder to a safe place (like your desktop). You also might want to back up the <strong><code>ModSources</code></strong> folder if you&#8217;re a developer.
+<ul>
+<li><strong>Don&#8217;t skip this. Losing your world is the worst feeling ever. Trust me.</strong></li>
+</ul></li>
+<li><strong>Delete almost everything in your old server folder.</strong> Delete all the files, but <strong>leave your backed-up <code>Worlds</code> folder where it is.</strong></li>
+<li><strong>Unzip the new server file</strong> you downloaded into that empty folder.</li>
+<li><strong>Run the new <code>tModLoaderServer.exe</code></strong> file.</li>
+</ol>
+<p>And boom. Since you replaced the old, broken files with the brand-new ones, the <strong>tModLoader server version</strong> has to be correct. Plus, you kept your worlds, so you&#8217;re not starting over.</p>
+<p>Look, this whole process is a little annoying. But now you know the two methods: the super-easy command line trick, and the manual method for when life throws you a curveball.</p>
+<p>Now go make sure all your friends <strong>update their tModLoader client</strong> too! Otherwise, you&#8217;ll still have a version mismatch, and you&#8217;ll be right back here again.</p>
+<p>What are you waiting for? Time to get back to the grind!</p>
+<h2><span class="ez-toc-section" id="%F0%9F%94%A8_How_to_Update_Your_Terraria_tModLoader_Server_Without_Breaking_Everything_Seriously"></span>🔨 How to Update Your Terraria tModLoader Server Without Breaking Everything (Seriously)<span class="ez-toc-section-end"></span></h2>
+<p>Ever fire up your tModLoader server, get ready to play, and then boom—<strong>nothing works</strong>? You see that dreaded <strong>&#8220;Stuck on Connecting&#8221;</strong> message, or maybe the whole thing just crashes into a spectacular mess of code. Frustrating, right?</p>
+<p>Look, updating your server <em>should</em> be easy. It really should. But sometimes it feels like a high-stakes surgery. One tiny mistake and your beautiful world is gone, or your mods just decide they&#8217;re done with you. We&#8217;ve all been there.</p>
+<p>The problem is, most guides tell you to just &#8220;update the files&#8221; and restart. Thanks, Captain Obvious. But they skip the actual important stuff: the pre-update checklist, the specific steps for different server types, and <strong>how to clean up the mod hell that follows.</strong></p>
+<p>Here&#8217;s the deal. I’ve killed and resurrected more tModLoader servers than I care to admit. I’ll walk you through how to <strong>update your Terraria tModLoader server</strong> the right way, no matter how you run it. And we’re going to do it without accidentally deleting your entire world. Sound good?</p>
+<hr />
+<h3><span class="ez-toc-section" id="%F0%9F%9B%A1%EF%B8%8F_The_Absolutely_CRITICAL_Pre-Update_Checklist_Dont_Skip_This"></span>🛡️ The Absolutely CRITICAL Pre-Update Checklist (Don&#8217;t Skip This!)<span class="ez-toc-section-end"></span></h3>
+<p>Seriously, this step is the difference between a quick five-minute update and spending your whole evening Googling error messages. Think of this as putting on a seatbelt before you drive.</p>
+<p>You need to do three things <em>before</em> you touch a single file.</p>
+<h4><span class="ez-toc-section" id="1_Back_Up_Your_World_and_Player_Files_No_Excuses"></span>1. Back Up Your World and Player Files (No Excuses)<span class="ez-toc-section-end"></span></h4>
+<p>This is the single most important piece of advice. <strong>Do not update before you do this.</strong> It&#8217;s like having insurance for your digital life.</p>
+<ul>
+<li><strong>Where to find them:</strong> Your world files usually live in <code>\Documents\My Games\Terraria\Worlds</code> and player files are in <code>\Documents\My Games\Terraria\Players</code>.</li>
+<li><strong>What to grab:</strong> Get the actual world files (the <code>.wld</code> files) AND the <code>tModLoader</code> folder in your server&#8217;s root directory.</li>
+<li><strong>What to do:</strong> Copy that entire folder to a safe place that is <em>not</em> your server directory. Name it something like <code>Backup_Pre_v202X.XX.XX</code>.</li>
+</ul>
+<p>If everything goes sideways—and it sometimes does—you can just dump this folder back in and pretend the update never happened. Easy.</p>
+<h4><span class="ez-toc-section" id="2_Check_the_Version_Numbers"></span>2. Check the Version Numbers<span class="ez-toc-section-end"></span></h4>
+<p>You can’t just blindly update. You need to know what you’re updating <em>to</em>.</p>
+<ul>
+<li><strong>The Rule:</strong> Your server needs to run the <strong>exact same version</strong> as your game client (the one you use to play).</li>
+<li><strong>How to check:</strong> Go to the official tModLoader GitHub releases page. They use version names like <strong>v2025.04.05.5</strong>. That string of numbers matters. It tells you exactly what code is running.</li>
+<li><strong>Why it matters:</strong> If the server is on <code>v2025.04.05.5</code> and your client is on <code>v2025.04.05.4</code>, you&#8217;ll get a persistent &#8220;Stuck on Connecting&#8221; error. It&#8217;s a classic client vs. server mismatch error. They have to match <em>perfectly</em>.</li>
+</ul>
+<h4><span class="ez-toc-section" id="3_Know_Your_Mods_Status"></span>3. Know Your Mods’ Status<span class="ez-toc-section-end"></span></h4>
+<p>Updating Terraria itself or a major tModLoader version (like moving from 1.3 to 1.4) is a huge deal for mods.</p>
+<ul>
+<li><strong>Reality Check:</strong> Not all mods update at the same time. The big ones will be fast, but that one obscure, amazing quality-of-life mod? It might be broken for a week.</li>
+<li><strong>The Pro Tip:</strong> Go check the Mod Browser or the specific mod pages. See if they’ve updated for the new version you’re trying to use. If a critical mod hasn&#8217;t updated, maybe you should wait a day or two. Trust me on this.</li>
+</ul>
+<hr />
+<h3><span class="ez-toc-section" id="%F0%9F%9B%A0%EF%B8%8F_The_Walkthrough_Updating_Your_Server_Based_on_Its_Type"></span>🛠️ The Walkthrough: Updating Your Server Based on Its Type<span class="ez-toc-section-end"></span></h3>
+<p>Okay, you&#8217;ve backed up and you know your versions. Good job! Now, the actual update process depends entirely on <em>how</em> you run your server.</p>
+<h4><span class="ez-toc-section" id="1_If_You_Use_a_Hosting_Panel_The_Easiest_Way"></span>1. If You Use a Hosting Panel (The Easiest Way)<span class="ez-toc-section-end"></span></h4>
+<p>This is the simplest method, assuming your host isn&#8217;t using ancient technology.</p>
+<ul>
+<li><strong>The Setup:</strong> You log into a web dashboard (like Pterodactyl or whatever your host uses).</li>
+<li><strong>The Method:</strong> Look for a button that says <strong>&#8220;Update Server,&#8221; &#8220;Reinstall,&#8221;</strong> or <strong>&#8220;Run SteamCMD Update.&#8221;</strong> A lot of good hosts literally have a one-click button for this.</li>
+<li><strong>What it does:</strong> The panel runs the update scripts for you and replaces the core files.</li>
+<li><strong>The Catch:</strong> <strong>Do not rely on automatic restart.</strong> After the update, check the server console. Make sure it&#8217;s fully loaded and not spitting out errors. Then stop it cleanly and restart it one more time. It just feels better, right?</li>
+</ul>
+<h4><span class="ez-toc-section" id="2_If_You_Use_SteamCMD_or_Run_Manually_The_Classic_Way"></span>2. If You Use SteamCMD or Run Manually (The Classic Way)<span class="ez-toc-section-end"></span></h4>
+<p>This is for all you DIY folks who run a Windows server or a Linux box.</p>
+<ul>
+<li><strong>The SteamCMD Command:</strong> You need to run the Steam Command Line Interface (SteamCMD) again to download the new files.
+<ul>
+<li>Open your SteamCMD client.</li>
+<li>Run this specific line:
+<ul>
+<li><code>app_update 1281930 validate</code></li>
+</ul></li>
+<li>The app ID $1281930$ is for tModLoader. The <code>validate</code> part makes sure all files are downloaded correctly.</li>
+</ul></li>
+<li><strong>The Manual Way:</strong> If you just download the zip file, just extract the <em>new</em> core files over the <em>old</em> ones in your server directory. <strong>Don&#8217;t delete the whole directory!</strong> You need to keep your <code>worlds</code>, <code>config</code>, and <code>logs</code> folders. You’re just replacing the engine parts.</li>
+<li><strong>Pro-Tip:</strong> Sometimes, the file that starts the server (like <code>start.bat</code> or <code>launch.sh</code>) needs a quick peek. If the developers changed the startup command, your old one won&#8217;t work. Check the official update notes if you get a weird launch error.</li>
+</ul>
+<h4><span class="ez-toc-section" id="3_If_You_Use_Docker_The_Clean_Way"></span>3. If You Use Docker (The Clean Way)<span class="ez-toc-section-end"></span></h4>
+<p>Docker is great because it keeps everything isolated, but you need to pull the new container image.</p>
+<ul>
+<li><strong>The Process:</strong> You don&#8217;t update files; you update the <em>image</em> the server is running on.</li>
+<li><strong>The Commands:</strong>
+<ul>
+<li>Stop the old container: <code>docker stop [container_name]</code></li>
+<li>Remove the old container: <code>docker rm [container_name]</code></li>
+<li>Pull the new image: <code>docker pull tmodloader/tmodloader</code> (or whatever image you use).</li>
+<li>Re-create and start the container with the <em>new</em> image, making sure your world volume (where your saved data is) is still connected.</li>
+</ul></li>
+<li><strong>Why this rocks:</strong> If the update fails, you just stop the new container and start the old one again. You’re swapping the engine, not rebuilding it.</li>
+</ul>
+<hr />
+<h3><span class="ez-toc-section" id="%F0%9F%9A%A8_Post-Update_Chaos_Dealing_with_%E2%80%9CMod_Hell%E2%80%9D"></span>🚨 Post-Update Chaos: Dealing with &#8220;Mod Hell&#8221;<span class="ez-toc-section-end"></span></h3>
+<p>Let’s be real. Even a perfect core update can turn into &#8220;Mod Hell.&#8221; This is when your server runs, but your mods are borked.</p>
+<p>I once spent three hours trying to fix a server that was fine, until I realized <strong>one small mod was holding everything hostage.</strong> This is what happens:</p>
+<ol>
+<li><strong>Server Loads:</strong> The server starts fine, because the core tModLoader files are new.</li>
+<li><strong>Mod Conflict:</strong> The server starts loading mods, hits one that hasn&#8217;t updated for the new version, and instantly crashes or hangs.</li>
+<li><strong>You Suffer:</strong> You, the admin, spend the next hour trying to figure out which one is the problem child.</li>
+</ol>
+<h4><span class="ez-toc-section" id="The_Cleanup_Strategy_Find_the_Culprit"></span>The Cleanup Strategy: Find the Culprit<span class="ez-toc-section-end"></span></h4>
+<ul>
+<li><strong>Quick Fix:</strong> Before you start the server, rename the <code>Mods</code> folder in your server directory to something like <code>Mods_OLD</code>.</li>
+<li><strong>Load Test:</strong> Start the server. If it loads perfectly without mods, guess what? It’s a mod problem.</li>
+<li><strong>The Slow Grind:</strong> Move mods from <code>Mods_OLD</code> back into the new, empty <code>Mods</code> folder <strong>in batches</strong>. Start with the biggest ones, like Calamity or Thorium. Load, test. If it breaks, take out the last batch you added and try again.</li>
+</ul>
+<p>It&#8217;s tedious, but it’s the only way to isolate that one mod that&#8217;s ruining the party.</p>
+<hr />
+<h3><span class="ez-toc-section" id="%F0%9F%9B%91_Quick_Reality_Check"></span>🛑 Quick Reality Check<span class="ez-toc-section-end"></span></h3>
+<p>Look, <strong>updating your Terraria tModLoader server</strong> is just part of life. It’s annoying, but it has to be done.</p>
+<p>The bottom line is this: <strong>Back up, check the versions, and be ruthless about your mods.</strong> Don&#8217;t assume everything will just work, because that&#8217;s when things break the most. I&#8217;ve wasted countless hours being cocky about a small update, only to realize I skipped the backup. Don&#8217;t be like me.</p>
+<p>Now go make that backup right now. Seriously. You know the drill. What’s the first thing you’re going to do after you successfully get your server back online?</p>
+<p>Ever notice how you spend hours building a cool Terraria world with all your mods, then a tiny update drops, and suddenly your players are stuck on <strong>&#8220;Connecting&#8230;&#8221;</strong>? Frustrating, right?</p>
+<p>Look, that pain is real, and it’s almost always the same messy problem: a <strong>sloppy server update</strong>. Most people just hit the &#8220;update&#8221; button and pray. And that&#8217;s how worlds get corrupted or your favorite Calamity weapon turns into a useless gray square.</p>
+<p>Here&#8217;s the deal: updating your <strong>tModLoader server version</strong> is actually a three-part dance. You have to get the <strong>client</strong>, the <strong>server</strong>, and all your <strong>mods</strong> singing the same song. Miss one step, and you’re back to troubleshooting hell.</p>
+<p>After managing dozens of tModLoader servers—and yes, accidentally blowing up a few worlds myself—I figured out a foolproof, three-step method. We&#8217;re going to break down the process so your server update actually works the first time.</p>
+<hr />
+<h2><span class="ez-toc-section" id="The_Pre-Flight_Checklist_3_Crucial_Steps_Before_You_Update_Your_tModLoader_Server_Version"></span>The Pre-Flight Checklist: 3 Crucial Steps Before You Update Your tModLoader Server Version<span class="ez-toc-section-end"></span></h2>
+<p>Rushing the update is how you turn a weekend of fun into a week of annoying troubleshooting. Before you touch a single setting to change your <strong>tmodloader server version</strong>, you need to complete a mandatory pre-flight check. This isn&#8217;t filler; this is the difference between a seamless transition and a corrupted save.</p>
+<h3><span class="ez-toc-section" id="Backup_Your_World_and_Player_Data_The_%E2%80%98Dont_Be_a_Statistic_Rule"></span>Backup Your World and Player Data (The &#8216;Don&#8217;t Be a Statistic&#8217; Rule)<span class="ez-toc-section-end"></span></h3>
+<p>I&#8217;m starting with the most boring part because it’s also the most important. <strong>Backup your stuff.</strong> Seriously. You need a safety net, because new tModLoader versions can sometimes change the world file format, making it unreadable for older versions.</p>
+<p>You need to grab two kinds of files and put them somewhere safe, like your desktop:</p>
+<ol>
+<li><strong>World Files:</strong> Anything ending in <strong>.wld</strong>.</li>
+<li><strong>Player Data:</strong> Anything ending in <strong>.plr</strong>.</li>
+</ol>
+<p>You can usually find these in a folder that looks something like <code>Documents/My Games/Terraria/tModLoader/Worlds</code>. And yes, do this <em>even if</em> your host panel claims to automate backups. That automated backup only helps if you trust it, and honestly, why risk your cool builds on trust? Back up your world, and then you can stop worrying about accidentally deleting everything.</p>
+<h3><span class="ez-toc-section" id="Mod_Compatibility_Audit_Why_the_ClientServer_Mismatch_is_the_Real_Killer"></span>Mod Compatibility Audit: Why the Client/Server Mismatch is the Real Killer<span class="ez-toc-section-end"></span></h3>
+<p>Here&#8217;s a hot take: The <strong>tModLoader server version</strong> itself isn&#8217;t the main problem. The real killer is the client/server <strong>mod mismatch</strong> it causes.</p>
+<p>A new TML version often breaks older mods. That means a mod that worked five minutes ago might be incompatible now. If the server updates and you forget about the mods, players will get stuck on that annoying &#8220;Connecting&#8230;&#8221; screen forever.</p>
+<p>So, before you update the server, open your game client. Go to the <strong>Mod Browser</strong> and check your currently installed mods. If any of them are red, pink, or clearly marked as incompatible with the <em>latest</em> TML version, you have to <strong>disable them first</strong>. Once the server is updated, all players will need to be on the newest, compatible mod versions, too.</p>
+<h3><span class="ez-toc-section" id="Pin_Down_the_Target_Finding_the_Official_tModLoader_Version_Number"></span>Pin Down the Target: Finding the Official tModLoader Version Number<span class="ez-toc-section-end"></span></h3>
+<p>Don&#8217;t use the version number displayed in-game—that&#8217;s often not the one you need. That&#8217;s like using a napkin to write your bank account number.</p>
+<p>You need the official, canonical source. That&#8217;s always the <strong>Official tModLoader GitHub Releases page</strong>. </p>
+<p>Why? Because when you use a host panel or do a manual install, you need the <strong>exact format</strong>. It usually looks like <code>v202X.XX.XX.X</code> or something similar. Copy that whole, specific version number. This is what you&#8217;ll tell the server to run. Using the right number is the only way to make sure the server fetches the correct files and not some random, broken version.</p>
+<hr />
+<h2><span class="ez-toc-section" id="The_Execution_How_to_Update_tModLoader_Server_Version_Based_on_Your_Setup"></span>The Execution: How to Update tModLoader Server Version Based on Your Setup<span class="ez-toc-section-end"></span></h2>
+<p>There’s no single button—I know, shocking—but the core process is the same: tell the server what version to use, let it download the files, and restart. The method just changes based on whether you&#8217;re using a game host, SteamCMD, or a custom script.</p>
+<h3><span class="ez-toc-section" id="The_Easy_Route_Host_Panel_Update_BisectNodecraftetc"></span>The Easy Route: Host Panel Update (Bisect/Nodecraft/etc.)<span class="ez-toc-section-end"></span></h3>
+<p>If you’re paying for a host like BisectHosting or Nodecraft, this should be the simplest way. You&#8217;re paying them to deal with the annoying file stuff.</p>
+<ol>
+<li>Log in to your server panel.</li>
+<li>Find the <strong>&#8216;Startup&#8217;</strong> or <strong>&#8216;Configuration&#8217;</strong> tab.</li>
+<li>Look for a variable named something like <strong>&#8216;tModLoader Version&#8217;</strong> or <strong>&#8216;TML_VERSION&#8217;</strong>.</li>
+<li>Paste the <strong>exact version number</strong> you copied from GitHub into that box. Or, sometimes, you can just type <strong>&#8216;latest&#8217;</strong> if you want the newest one.</li>
+<li>Make sure any setting for <strong>&#8216;Auto Updates&#8217;</strong> or <strong>&#8216;Verify File Integrity&#8217;</strong> is enabled.</li>
+<li>Save the changes and <strong>restart the server</strong>.</li>
+</ol>
+<p>That&#8217;s it. The panel will now check the version you told it to run, download the necessary files, and launch your server on the shiny new TML version.</p>
+<h3><span class="ez-toc-section" id="The_Command_Line_Updating_with_SteamCMD_and_Dedicated_Server_Scripts"></span>The Command Line: Updating with SteamCMD and Dedicated Server Scripts<span class="ez-toc-section-end"></span></h3>
+<p>This is for the self-hosters—the people running their server on their own computer or a dedicated box. It&#8217;s more technical, but it gives you total control.</p>
+<p>If you’re using <strong>SteamCMD</strong> (the tool for getting dedicated server files), you need to run this command:</p>
+<p><code>app_update 1281930 validate</code></p>
+<p>That <strong>1281930</strong> is the official App ID for tModLoader on Steam. The <code>validate</code> part tells SteamCMD to check all the files and download the correct, new ones for the dedicated server.</p>
+<p>If you’re on a Linux box running a custom script—like the common <code>manage-tModLoaderServer.sh</code>—you&#8217;ll use the update command built into that script. This is complex, but if you&#8217;re running a Linux dedicated server, you already know the drill. You run the script&#8217;s update function, and it handles the rest.</p>
+<h3><span class="ez-toc-section" id="The_Client_is_Not_Updated_Why_Your_Players_Get_Stuck_on_%E2%80%98Connecting"></span>The Client is Not Updated: Why Your Players Get Stuck on &#8216;Connecting&#8217;<span class="ez-toc-section-end"></span></h3>
+<p>Okay, you updated the server. It&#8217;s running the new version. But players can&#8217;t join. They get that maddening <strong>&#8220;Stuck on Connecting&#8221;</strong> error.</p>
+<p><strong>Here’s the shocker:</strong> The player client <strong>must</strong> match the server version exactly. They can&#8217;t be on the old TML version if you&#8217;re on the new one.</p>
+<p>If you updated the server to, say, TML v1.4.4.9, but your friend hasn&#8217;t updated their tModLoader client through Steam yet, it won&#8217;t work.</p>
+<p>You need to tell your players to go into their <strong>Steam Library</strong> &gt; right-click <strong>tModLoader</strong> &gt; click <strong>Properties</strong> &gt; and then check the <strong>Betas</strong> tab. That&#8217;s where they can select a specific version if the newest one isn&#8217;t the default. It&#8217;s annoying that you have to tell other people what to do, but hey, that&#8217;s being a server admin!</p>
+<hr />
+<h2><span class="ez-toc-section" id="The_Honest_Truth_About_tModLoader_Version_Downgrades_and_Risks"></span>The Honest Truth About tModLoader Version Downgrades and Risks<span class="ez-toc-section-end"></span></h2>
+<p>Sometimes, the &#8220;latest&#8221; version is a buggy mess that breaks your 20-mod setup. A smart admin knows when to downgrade or, better yet, how to avoid the issue altogether. This is where most guides stop and where you start demonstrating actual authority.</p>
+<h3><span class="ez-toc-section" id="When_Downgrading_is_Necessary_and_Why_Its_Dangerous"></span>When Downgrading is Necessary (and Why It&#8217;s Dangerous)<span class="ez-toc-section-end"></span></h3>
+<p>Sometimes, a huge mod (like Calamity or Thorium) hasn&#8217;t updated to the latest TML version yet. You have to wait. In that case, you might need to run an older TML version.</p>
+<p>You can safely downgrade by specifying an older version number in your host panel or config file. <strong>But here&#8217;s the danger:</strong> Downgrading is <em>riskier</em> than upgrading. If your players logged in on the newer TML version and the world data got updated, going back to the old TML version can break the world. You’ll have to use that <strong>backup</strong> you made (you did back it up, right?).</p>
+<p>Always try to upgrade, not downgrade. Only go backward if you absolutely have to wait for a key mod to catch up.</p>
+<h3><span class="ez-toc-section" id="Troubleshooting_The_Dreaded_%E2%80%98Stuck_on_Connecting_Error_and_Mod_Version_Hell"></span>Troubleshooting: The Dreaded &#8216;Stuck on Connecting&#8217; Error and Mod Version Hell<span class="ez-toc-section-end"></span></h3>
+<p>Let&#8217;s say everything <em>should</em> match, but it doesn&#8217;t. You&#8217;re still stuck. The most common cause is a single, tiny mod on a single player&#8217;s client being a different version than the server&#8217;s mod version. It&#8217;s Mod Version Hell.</p>
+<p>Here are the fixes:</p>
+<ul>
+<li><strong>Server Fix:</strong> The owner should go into the server&#8217;s mod list and <strong>disable and re-enable</strong> all the major mods. This forces the server to redownload and verify it has the latest versions.</li>
+<li><strong>Client Fix:</strong> Tell the affected player to delete their local mod files. They should look for files ending in <strong>.tmod</strong> in their mods folder. Deleting those files forces the client to download the fresh, correct versions from the server when they try to connect again. It&#8217;s a pain, but it clears the cache.</li>
+</ul>
+<hr />
+<h2><span class="ez-toc-section" id="Quick_Reality_Check_Your_Next_Move_After_the_Server_Update"></span>Quick Reality Check: Your Next Move After the Server Update<span class="ez-toc-section-end"></span></h2>
+<p>So, you hit the restart button, and the server came back online. That’s the easy part.</p>
+<p>The main takeaway that needs to stick in your brain is this: The real update isn&#8217;t changing the TML version; it&#8217;s the <strong>mod synchronization</strong> that follows. If your mods aren&#8217;t happy, your players aren&#8217;t happy.</p>
+<p>Your next step is simple: <strong>Log in immediately and test all major mods</strong>. See if they load, if their items are there, and if they crash. Then, tell all your players to <strong>verify their client versions and mod versions</strong> before they try to jump in.</p>
+<p>Look, this doesn&#8217;t have to be a nightmare. Treat every update like a migration, not a patch, and you&#8217;ll save yourself tons of time. Now go get that server running, boss.</p>
+<p>Need help finding that official GitHub page link, or is your server stuck on a specific error message? Let me know!</p>		</div>
+
+				<footer class="entry-meta" aria-label="Entry meta">
+					<nav id="nav-below" class="post-navigation" aria-label="Posts">
+			<div class="nav-previous"><span class="gp-icon icon-arrow-left"><svg viewBox="0 0 192 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M178.425 138.212c0 2.265-1.133 4.813-2.832 6.512L64.276 256.001l111.317 111.277c1.7 1.7 2.832 4.247 2.832 6.513 0 2.265-1.133 4.813-2.832 6.512L161.43 394.46c-1.7 1.7-4.249 2.832-6.514 2.832-2.266 0-4.816-1.133-6.515-2.832L16.407 262.514c-1.699-1.7-2.832-4.248-2.832-6.513 0-2.265 1.133-4.813 2.832-6.512l131.994-131.947c1.7-1.699 4.249-2.831 6.515-2.831 2.265 0 4.815 1.132 6.514 2.831l14.163 14.157c1.7 1.7 2.832 3.965 2.832 6.513z" fill-rule="nonzero" /></svg></span><span class="prev"><a href="https://hownestly.com/how-to-make-hot-water-cornbread-perfect/" rel="prev">The Honest Guide to Hot Water Cornbread: Crisp, Creamy, and Never Crumbly</a></span></div><div class="nav-next"><span class="gp-icon icon-arrow-right"><svg viewBox="0 0 192 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M178.425 256.001c0 2.266-1.133 4.815-2.832 6.515L43.599 394.509c-1.7 1.7-4.248 2.833-6.514 2.833s-4.816-1.133-6.515-2.833l-14.163-14.162c-1.699-1.7-2.832-3.966-2.832-6.515 0-2.266 1.133-4.815 2.832-6.515l111.317-111.316L16.407 144.685c-1.699-1.7-2.832-4.249-2.832-6.515s1.133-4.815 2.832-6.515l14.163-14.162c1.7-1.7 4.249-2.833 6.515-2.833s4.815 1.133 6.514 2.833l131.994 131.993c1.7 1.7 2.832 4.249 2.832 6.515z" fill-rule="nonzero" /></svg></span><span class="next"><a href="https://hownestly.com/how-tall-is-a-wine-bottle-standard-sizes/" rel="next">Stop Guessing: The Definitive Guide to Wine Bottle Height and Size</a></span></div>		</nav>
+				</footer>
+			</div>
+</article>
+		</main>
+	</div>
+
+	<div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+	<div class="inside-right-sidebar">
+		<aside id="block-21" class="widget inner-padding widget_block widget_recent_entries"><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/brazilian-wax-cost-breakdown/">Brazilian Wax Cost Guide: The Real Price Tag &#038; Factors</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/tape-in-extensions-lifespan-reuse-guide/">Tape-In Extensions Lifespan: What Stylists Don&#8217;t Tell You</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-self-fuck-auto-fellatio-guide/">Self-Penetration Guide: Techniques, Gear, and Safety</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/private-chef-cost-breakdown/">Private Chef Cost Breakdown: Pricing for Daily, Event &#038; Monthly Hire</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-keep-mice-out-of-car-engine-cabin/">Stop Rodents: How to Keep Mice Out of Your Car Engine &#038; Cabin</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-long-do-dissolvable-stitches-last-in-mouth/">Dissolvable Stitches in Mouth: Real Timelines &#038; Why</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/cups-of-water-in-a-bottle-hydration-math/">Cups of Water in a Bottle: The Hydration Calculation</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-often-do-you-change-your-oil-real-guide/">Change Your Oil: Mileage, Oil Type &#038; The &#8216;Severe&#8217; Myth</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-throw-a-throwing-knife-technique-guide/">Mastering the Throwing Knife: Spin, No-Spin &#038; Distance</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/increase-house-water-pressure-proven-fixes/">7 Proven Ways to Boost Your Home&#8217;s Water Pressure</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/real-cost-of-nose-surgery-rhinoplasty-price-guide/">Nose Surgery Costs: The Real Price Breakdown (Not Just the Fee)</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/eso-companion-gear-traits-guide/">ESO Companion Gear: Get the Right Traits (No Transmute!)</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/butter-cup-stick-ounce-gram-conversion-guide/">Butter Conversion Secrets: Sticks, Cups, Ounces, and Grams</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-get-rid-of-canker-sore-fast/">Canker Sore Relief: 3 Proven Ways to Heal Them Fast</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-long-can-a-roach-live-survival-guide/">Roach Lifespan Secrets: What You Need to Know</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-many-bullet-points-per-job-on-resume-rule/">Bullet Points Per Job: The Data-Backed Resume Rule</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-long-to-read-the-bible-calculation/">Bible Reading Speed: Calculate Your Timeframe</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/french-bulldog-cost-lifetime-breakdown/">French Bulldog Cost: Upfront Price vs. Lifetime Expense</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-wear-hood-jackets-expert-guide/">Mastering the Hood Jacket: Style Rules &#038; Outfit Formulas</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-be-a-better-boyfriend-pillars/">The 3 Pillars of Being a Better Boyfriend: Actionable Steps</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/super-glue-dry-time-factors/">Super Glue Dry Time: The Factors That Accelerate &#038; Slow Curing</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-do-fish-have-sex-reproduction-methods/">Beyond Spawning: How Fish Really Reproduce and Mate</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-to-get-hollow-cheeks-expert-guide/">How to Get Hollow Cheeks: The Truth About Diet, Exercise, and Surgery</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/correct-differential-oil-capacity-fill-level/">Differential Oil Capacity: Stop Guessing and Fill it Right</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://hownestly.com/how-long-do-ct-results-take-timeline/">CT Scan Results: The 24-Hour Reality &#038; Delays Explained</a></li>
+</ul></aside>	</div>
+</div>
+
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<footer class="site-info" aria-label="Site"  itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container">
+								<div class="copyright-bar">
+					Wahidin&copy; 2025 - 2025				</div>
+			</div>
+		</footer>
+		</div>
+
+<script id="generate-a11y" defer src="data:text/javascript,%21function%28%29%7B%22use%20strict%22%3Bif%28%22querySelector%22in%20document%26%26%22addEventListener%22in%20window%29%7Bvar%20e%3Ddocument.body%3Be.addEventListener%28%22pointerdown%22%2C%28function%28%29%7Be.classList.add%28%22using-mouse%22%29%7D%29%2C%7Bpassive%3A%210%7D%29%2Ce.addEventListener%28%22keydown%22%2C%28function%28%29%7Be.classList.remove%28%22using-mouse%22%29%7D%29%2C%7Bpassive%3A%210%7D%29%7D%7D%28%29%3B"></script>
+<script id="generate-smooth-scroll-js-extra" defer src="data:text/javascript,var%20gpSmoothScroll%20%3D%20%7B%22elements%22%3A%5B%22.smooth-scroll%22%2C%22li.smooth-scroll%20a%22%5D%2C%22duration%22%3A%22800%22%2C%22offset%22%3A%22%22%7D%3B"></script>
+<script src="https://hownestly.com/wp-content/plugins/gp-premium/general/js/smooth-scroll.min.js?ver=ca1e68e1ae2d" id="generate-smooth-scroll-js" defer></script>
+<script id="ez-toc-scroll-scriptjs-js-extra" defer src="data:text/javascript,var%20eztoc_smooth_local%20%3D%20%7B%22scroll_offset%22%3A%2230%22%2C%22add_request_uri%22%3A%22%22%2C%22add_self_reference_link%22%3A%22%22%7D%3B"></script>
+<script src="https://hownestly.com/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?ver=81f0d173893e" id="ez-toc-scroll-scriptjs-js" defer></script>
+<script src="https://hownestly.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=634ee9f21b34" id="ez-toc-js-cookie-js" defer></script>
+<script src="https://hownestly.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=f74050f4bacb" id="ez-toc-jquery-sticky-kit-js" defer></script>
+<script id="ez-toc-js-js-extra" defer src="data:text/javascript,var%20ezTOC%20%3D%20%7B%22smooth_scroll%22%3A%221%22%2C%22visibility_hide_by_default%22%3A%22%22%2C%22scroll_offset%22%3A%2230%22%2C%22fallbackIcon%22%3A%22%3Cspan%20class%3D%5C%22%5C%22%3E%3Cspan%20class%3D%5C%22eztoc-hide%5C%22%20style%3D%5C%22display%3Anone%3B%5C%22%3EToggle%3C%5C%2Fspan%3E%3Cspan%20class%3D%5C%22ez-toc-icon-toggle-span%5C%22%3E%3Csvg%20style%3D%5C%22fill%3A%20%23999%3Bcolor%3A%23999%5C%22%20xmlns%3D%5C%22http%3A%5C%2F%5C%2Fwww.w3.org%5C%2F2000%5C%2Fsvg%5C%22%20class%3D%5C%22list-377408%5C%22%20width%3D%5C%2220px%5C%22%20height%3D%5C%2220px%5C%22%20viewBox%3D%5C%220%200%2024%2024%5C%22%20fill%3D%5C%22none%5C%22%3E%3Cpath%20d%3D%5C%22M6%206H4v2h2V6zm14%200H8v2h12V6zM4%2011h2v2H4v-2zm16%200H8v2h12v-2zM4%2016h2v2H4v-2zm16%200H8v2h12v-2z%5C%22%20fill%3D%5C%22currentColor%5C%22%3E%3C%5C%2Fpath%3E%3C%5C%2Fsvg%3E%3Csvg%20style%3D%5C%22fill%3A%20%23999%3Bcolor%3A%23999%5C%22%20class%3D%5C%22arrow-unsorted-368013%5C%22%20xmlns%3D%5C%22http%3A%5C%2F%5C%2Fwww.w3.org%5C%2F2000%5C%2Fsvg%5C%22%20width%3D%5C%2210px%5C%22%20height%3D%5C%2210px%5C%22%20viewBox%3D%5C%220%200%2024%2024%5C%22%20version%3D%5C%221.2%5C%22%20baseProfile%3D%5C%22tiny%5C%22%3E%3Cpath%20d%3D%5C%22M18.2%209.3l-6.2-6.3-6.2%206.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3%200%20.5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8%2014.7l6.2%206.3%206.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3%200-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z%5C%22%5C%2F%3E%3C%5C%2Fsvg%3E%3C%5C%2Fspan%3E%3C%5C%2Fspan%3E%22%2C%22chamomile_theme_is_on%22%3A%22%22%7D%3B"></script>
+<script src="https://hownestly.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=6317d5a9083c" id="ez-toc-js-js" defer></script>
+<!--[if lte IE 11]>
+<script src="https://hownestly.com/wp-content/themes/generatepress/assets/js/classList.min.js?ver=79fa3301bde3" id="generate-classlist-js" defer></script>
+<![endif]-->
+<script id="generate-menu-js-before" defer src="data:text/javascript,var%20generatepressMenu%20%3D%20%7B%22toggleOpenedSubMenus%22%3Atrue%2C%22openSubMenuLabel%22%3A%22Open%20Sub-Menu%22%2C%22closeSubMenuLabel%22%3A%22Close%20Sub-Menu%22%7D%3B"></script>
+<script src="https://hownestly.com/wp-content/themes/generatepress/assets/js/menu.min.js?ver=67148b2ff820" id="generate-menu-js" defer></script>
+
+
+<script>!function(e){"function"==typeof define&&define.amd?define(e):e()}(function(){!function(){var e,t=!1,n=!1,r=Array.from(document.querySelectorAll("script[data-loading-method][data-src]")),o=r.filter(function(e){return"idle"===e.dataset.loadingMethod}),a=r.filter(function(e){return"user-interaction"===e.dataset.loadingMethod}),i=document.querySelectorAll("link[data-href]");if(r.length||i.length){var c=["readystatechange","DOMContentLoaded","load"],u={readystatechange:[],DOMContentLoaded:[],load:[]},l=!1,d=EventTarget.prototype.addEventListener;EventTarget.prototype.addEventListener=function(e,t,n){if(!l||!c.includes(e))return d.call(this,e,t,n);u[e].push({target:this,listener:t,options:n})};var s=[{event:"click",target:document},{event:"mousemove",target:document},{event:"keydown",target:document},{event:"touchstart",target:document},{event:"touchmove",target:document},{event:"scroll",target:window}],f=function(e){s.forEach(function(t){return t.target.addEventListener(t.event,e,{passive:!0})})},v=function(e){s.forEach(function(t){return t.target.removeEventListener(t.event,e)})};window.requestIdleCallback=window.requestIdleCallback||function(e){return setTimeout(function(){var t=Date.now();e({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-t))}})},1)};var g=[],h=function(e){return g.push(e)};document.addEventListener("click",h,{passive:!0}),o.length&&window.requestIdleCallback(function(){return m(o)}),a.length&&(f(y),e=setTimeout(y,1e4)),f(function e(){i.forEach(function(e){e.href=e.getAttribute("data-href"),e.removeAttribute("data-href")}),v(e)})}function m(e){e.forEach(function(e){var t=e.getAttribute("data-src");if(!t.includes("data:")){var n=document.createElement("link");n.rel="preload",n.as="script",n.href=t,document.head.appendChild(n)}}),function r(o){if(o>e.length-1)n||(window.jQuery&&t&&window.jQuery.holdReady(!1),c.forEach(function(e){u[e].forEach(function(t){var n=t.target,r=t.listener;try{var o=new Event(e,{bubbles:!0,cancelable:!0});r.call(n,o)}catch(t){console.error("Error executing "+e+" listener:",t)}}),u[e].length=0}),document.removeEventListener("click",h),g.forEach(function(e){var t;return null==(t=e.target)?void 0:t.dispatchEvent(new MouseEvent("click",{bubbles:!0,cancelable:!0,clientX:e.clientX,clientY:e.clientY}))}),g.length=0,n=!0);else{var a=e[o].getAttribute("data-src");window.jQuery&&"function"==typeof window.jQuery.holdReady&&!t&&(window.jQuery.holdReady(!0),t=!0),window.requestIdleCallback(function(){var e=document.createElement("script");l=!0;var t=setTimeout(function(){l&&(l=!1,r(o+1))},1500);e.onload=function(){clearTimeout(t),l=!1,r(o+1)},e.onerror=function(){clearTimeout(t),l=!1,r(o+1)},e.src=a,document.head.appendChild(e)})}}(0)}function y(){e&&clearTimeout(e),v(y),m(a)}}(),[{selector:"video[data-lazy-src],iframe[data-lazy-src]",callback:function(e){return function(t){if(t.isIntersecting){var n=t.target.getAttribute("data-lazy-src");t.target.setAttribute("src",n),e.unobserve(t.target)}}}},{selector:".flying-press-lazy-bg",callback:function(e){return function(t){t.isIntersecting&&(t.target.classList.remove("flying-press-lazy-bg"),e.unobserve(t.target))}}},{selector:'[style*="content-visibility"]',callback:function(e){return function(t){t.isIntersecting&&(t.target.style.removeProperty("content-visibility"),t.target.style.removeProperty("contain-intrinsic-size"),e.unobserve(t.target))}}}].forEach(function(e){var t=e.selector,n=e.callback,r=new IntersectionObserver(function(e){e.forEach(n(r))},{rootMargin:"300px"});document.querySelectorAll(t).forEach(function(e){return r.observe(e)})})});
+</script>
+</body>
+</html>
+<!-- Powered by FlyingPress for lightning-fast performance. Learn more: https://flyingpress.com. Cached at 1764925865 -->

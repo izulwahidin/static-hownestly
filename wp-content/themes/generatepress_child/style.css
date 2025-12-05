@@ -1,0 +1,54 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/* Basic Reset and Container */
+.search-container {
+    max-width: 400px;
+    margin: 20px auto; /* Centers the form */
+}
+
+/* Form Styling - Uses flexbox for alignment */
+#search-form {
+    display: flex;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 25px; /* Rounded corners */
+    overflow: hidden; /* Ensures input and button sit neatly inside the border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Input Field Styling */
+#search-input {
+    flex-grow: 1; /* Takes up most of the space */
+    padding: 10px 15px;
+    border: none; /* Remove default border */
+    font-size: 16px;
+    outline: none; /* Remove default blue focus outline */
+}
+
+/* Button Styling (Search Icon) */
+#search-form button {
+    background-color: #007bff; /* Modern primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+}
+
+#search-form button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+/* Optional: Focus state for input */
+#search-input:focus {
+    /* When input is focused, make the whole form look highlighted */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}

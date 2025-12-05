@@ -1,0 +1,10 @@
+[[redirects]]
+from = "/robots.txt"
+to = "/robots_static.txt"
+status = 200
+force = true
+
+[[redirects]]
+from = "/*"
+to = "/404_not_found/index.html"
+status = 404
